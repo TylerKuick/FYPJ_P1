@@ -1,0 +1,77 @@
+{
+  "providers": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-indsinghealthenhance-dev-101019-authRole",
+      "UnauthRoleArn": "arn:aws:iam::767398001474:role/amplify-indsinghealthenhance-dev-101019-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::767398001474:role/amplify-indsinghealthenhance-dev-101019-authRole",
+      "Region": "ap-southeast-1",
+      "DeploymentBucketName": "amplify-indsinghealthenhance-dev-101019-deployment",
+      "UnauthRoleName": "amplify-indsinghealthenhance-dev-101019-unauthRole",
+      "StackName": "amplify-indsinghealthenhance-dev-101019",
+      "StackId": "arn:aws:cloudformation:ap-southeast-1:767398001474:stack/amplify-indsinghealthenhance-dev-101019/5b1fc610-cba7-11ee-bf36-06ef3e90a08d",
+      "AmplifyAppId": "d3h0o9lk1t1huy"
+    }
+  },
+  "auth": {
+    "indsinghealthenhancead19bd76": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false,
+      "frontendAuthConfig": {
+        "socialProviders": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
+        "signupAttributes": [
+          "EMAIL"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyMinLength": 8,
+          "passwordPolicyCharacters": []
+        },
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "verificationMechanisms": [
+          "PHONE_NUMBER"
+        ]
+      },
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-indsinghealthenhance-dev-101019-deployment/amplify-cfn-templates/auth/indsinghealthenhancead19bd76-cloudformation-template.json",
+        "logicalId": "authindsinghealthenhancead19bd76"
+      },
+      "lastPushTimeStamp": "2024-02-15T02:33:24.527Z",
+      "output": {
+        "CreatedSNSRole": "arn:aws:iam::767398001474:role/snsad19bd76101019-dev",
+        "UserPoolId": "ap-southeast-1_oyXXpBemv",
+        "AppClientIDWeb": "2123dks8tf5fet61j9m19gaceb",
+        "AppClientID": "2d947lck8jdv3sgg8hp3iujlq",
+        "IdentityPoolId": "ap-southeast-1:e7f7023e-f2d2-4863-8376-83751944fbcb",
+        "UserPoolArn": "arn:aws:cognito-idp:ap-southeast-1:767398001474:userpool/ap-southeast-1_oyXXpBemv",
+        "IdentityPoolName": "indsinghealthenhancead19bd76_identitypool_ad19bd76__dev",
+        "UserPoolName": "indsinghealthenhancead19bd76_userpool_ad19bd76"
+      },
+      "lastPushDirHash": "KCHOjsSw8U9fCjtvsXFcuiSUPDg="
+    }
+  },
+  "predictions": {
+    "identifyText81adced4": {
+      "providerPlugin": "awscloudformation",
+      "service": "RekognitionAndTextract",
+      "dependsOn": [],
+      "identifyType": "identifyText",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-indsinghealthenhance-dev-101019-deployment/amplify-cfn-templates/predictions/identifyText81adced4-template.json",
+        "logicalId": "predictionsidentifyText81adced4"
+      },
+      "lastPushTimeStamp": "2024-02-15T02:33:24.527Z",
+      "output": {
+        "format": "ALL",
+        "region": "ap-southeast-1"
+      },
+      "lastPushDirHash": "oHxPC/9JEU+1O9DYLAi/iO2oxpI="
+    }
+  }
+}
