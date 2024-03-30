@@ -1,0 +1,67 @@
+{
+    "UserAgent": "aws-amplify-cli/2.0",
+    "Version": "1.0",
+    "auth": {
+        "plugins": {
+            "awsCognitoAuthPlugin": {
+                "UserAgent": "aws-amplify-cli/0.1.0",
+                "Version": "0.1.0",
+                "IdentityManager": {
+                    "Default": {}
+                },
+                "CredentialsProvider": {
+                    "CognitoIdentity": {
+                        "Default": {
+                            "PoolId": "ap-southeast-1:e7f7023e-f2d2-4863-8376-83751944fbcb",
+                            "Region": "ap-southeast-1"
+                        }
+                    }
+                },
+                "CognitoUserPool": {
+                    "Default": {
+                        "PoolId": "ap-southeast-1_oyXXpBemv",
+                        "AppClientId": "2d947lck8jdv3sgg8hp3iujlq",
+                        "Region": "ap-southeast-1"
+                    }
+                },
+                "Auth": {
+                    "Default": {
+                        "authenticationFlowType": "USER_SRP_AUTH",
+                        "socialProviders": [],
+                        "usernameAttributes": [
+                            "EMAIL"
+                        ],
+                        "signupAttributes": [
+                            "EMAIL"
+                        ],
+                        "passwordProtectionSettings": {
+                            "passwordPolicyMinLength": 8,
+                            "passwordPolicyCharacters": []
+                        },
+                        "mfaConfiguration": "OFF",
+                        "mfaTypes": [
+                            "SMS"
+                        ],
+                        "verificationMechanisms": [
+                            "PHONE_NUMBER"
+                        ]
+                    }
+                }
+            }
+        }
+    },
+    "predictions": {
+        "plugins": {
+            "awsPredictionsPlugin": {
+                "defaultRegion": "ap-southeast-1",
+                "identify": {
+                    "identifyText": {
+                        "format": "ALL",
+                        "region": "ap-southeast-1",
+                        "defaultNetworkPolicy": "auto"
+                    }
+                }
+            }
+        }
+    }
+}
