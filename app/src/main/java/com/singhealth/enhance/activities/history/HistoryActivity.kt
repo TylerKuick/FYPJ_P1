@@ -15,7 +15,6 @@ import com.singhealth.enhance.activities.MainActivity
 import com.singhealth.enhance.activities.ocr.ScanActivity
 import com.singhealth.enhance.activities.patient.ProfileActivity
 import com.singhealth.enhance.activities.patient.RegistrationActivity
-import com.singhealth.enhance.activities.result.RecommendationActivity
 import com.singhealth.enhance.activities.settings.SettingsActivity
 import com.singhealth.enhance.databinding.ActivityHistoryBinding
 import com.singhealth.enhance.security.SecureSharedPreferences
@@ -294,7 +293,7 @@ class HistoryActivity : AppCompatActivity(), HistoryAdapter.OnItemClickListener 
         bundle.putInt("avgSysBP", avgSysBP.toInt())
         bundle.putInt("avgDiaBP", avgDiaBP.toInt())
 
-        val recommendationIntent = Intent(this, RecommendationActivity::class.java)
+        val recommendationIntent = Intent(this, HistoryRecomendationActivity::class.java)
 
         recommendationIntent.putExtras(bundle)
 

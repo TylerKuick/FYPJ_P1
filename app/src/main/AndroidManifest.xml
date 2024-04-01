@@ -55,6 +55,11 @@
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:exported="false"
             android:label="@string/history_title" />
+        <activity
+            android:name=".activities.history.HistoryRecomendationActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="false"
+            android:label="History Recommendation"/>
 
         <!-- ocr -->
         <activity
