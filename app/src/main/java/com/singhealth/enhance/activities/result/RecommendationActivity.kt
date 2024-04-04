@@ -8,6 +8,9 @@ import android.widget.Toast
 import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
+import com.google.firebase.firestore.AggregateField
+import com.google.firebase.firestore.AggregateField.AverageAggregateField
+import com.google.firebase.firestore.AggregateSource
 import com.google.firebase.firestore.SetOptions
 import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
@@ -16,6 +19,7 @@ import com.singhealth.enhance.R
 import com.singhealth.enhance.activities.MainActivity
 import com.singhealth.enhance.activities.diagnosis.Diag
 import com.singhealth.enhance.activities.diagnosis.diagnosePatient
+import com.singhealth.enhance.activities.diagnosis.sortPatientVisits
 import com.singhealth.enhance.activities.history.HistoryActivity
 import com.singhealth.enhance.activities.ocr.ScanActivity
 import com.singhealth.enhance.activities.patient.ProfileActivity
@@ -38,6 +42,7 @@ class RecommendationActivity : AppCompatActivity() {
 
     private val db = Firebase.firestore
 
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -149,7 +154,8 @@ class RecommendationActivity : AppCompatActivity() {
     }
 
     private fun showControlStatus() {
-        if (patientAge >= 60) {
+        // P4B Version
+        /*if (patientAge >= 60) {
             if (avgSysBP >= 150 && avgDiaBP >= 90) {
                 binding.controlStatusTV.text = "This patient has sub-optimum BP control."
             } else if (avgSysBP >= 120 && avgDiaBP >= 80) {
@@ -172,7 +178,67 @@ class RecommendationActivity : AppCompatActivity() {
         } else {
             binding.controlStatusTV.text =
                 "Unable to provide control status for this patient. Manual intervention is required."
-        }
+        }*/
+
+        // P1 2024
+        // Control Status: How well the patient can control their BP (maintain BP under a limit), <140/90 for >18 yrs and <150/90 for >60 yrs
+        // Determined by taking the average of last 6 records (incl. most recent BP recording), if the average is under the limit, the patient
+        // exhibits good BP Control, else they have bad BP Control
+
+        var totalSys: Long = 0
+        var totalDia: Long = 0
+
+        // Reference to the patient's visits (including most recent one)
+        val collectionRef =
+            db.collection("patients").document(patientID.toString()).collection("visits")
+
+        collectionRef.get()
+            .addOnSuccessListener { documents ->
+                // Returns an array of objects containing the Sys/Dia BP values and date
+                val sortedVisits = sortPatientVisits(documents)
+                // Sum all of the Sys and Dia BP Values
+                for (i in 0..5) {
+                    var entry = sortedVisits[i]
+                    println(entry.date)
+                    val sysData = entry.avgSysBP
+                    val diaData = entry.avgDiaBP
+                    if (sysData != null && diaData != null) {
+                        totalSys += sysData
+                        totalDia += diaData
+                    }
+                }
+                // Average Sys BP throughout all visits
+                val avgSys = totalSys / 6
+                // Average Dia BP throughout all visits
+                val avgDia = totalDia / 6
+                println("avgSys: ${avgSys}, avgDia: ${avgDia}")
+                // Different Sys and Dia limits for different age groups
+                if (patientAge >= 60) {
+                    val sysLimit = 150
+                    val diaLimit = 90
+                    if (avgSys >= sysLimit || avgDia >= diaLimit) { // If either Sys or Dia BP exceed limit, patient has poor bp control
+                        println("Poor BP Control")
+                        binding.controlStatusTV.text = "Poor BP Control."
+                    } else {
+                        println("Good BP Control")
+                        binding.controlStatusTV.text = "Good BP Control"
+                    }
+                } else if (patientAge >= 18) {
+                    val sysLimit = 140
+                    val diaLimit = 90
+                    if (avgSys >= sysLimit || avgDia >= diaLimit) { // If either Sys or Dia BP exceed limit, patient has poor bp control
+                        println("Poor BP Control")
+                        binding.controlStatusTV.text = "Poor BP Control"
+                    } else {
+                        println("Good BP Control")
+                        binding.controlStatusTV.text = "Good BP Control"
+                    }
+                }
+
+            }
+            .addOnFailureListener { e ->
+                println(e)
+            }
     }
 
     @SuppressLint("SetTextI18n")
@@ -213,34 +279,46 @@ class RecommendationActivity : AppCompatActivity() {
         // P1 2024 Version
         // Provide categories of recommendation based on the patient's current BP Stage
         when (binding.bpStage.text.toString()) {
+            "(Low BP)" -> binding.recommendationTV.text = ""
+
             "(Normal BP)" -> binding.recommendationTV.text =
-                "Continue maintaining healthy lifestyle"
+                "Continue maintaining healthy lifestyle."
 
-            "(High Normal BP)" -> binding.recommendationTV.text = "- Lower sodium intake\n" +
-                    "- Maintain healthy weight\n" +
-                    "- Sufficient sleep\n" +
-                    "- Increase physical activity\n"
+            "(High Normal BP)" -> binding.recommendationTV.text = "Diet:\n" +
+                    "- Lower sodium intake (< 3.6g / day)\n\n" +
+                    "Lifestyle:\n" +
+                    "- Increase physical activity (3 times / week)\n" +
+                    "- Maintain healthy weight (BMI < 22.9)\n" +
+                    "- Sufficient sleep\n"
 
-            "(Stage 1 Hypertension)" -> binding.recommendationTV.text = "- Lower sodium intake\n" +
+            "(Stage 1 Hypertension)" -> binding.recommendationTV.text = "Diet:\n" +
+                    "- Healthy diet\n" +
+                    "- Lower sodium intake (< 2g / day)\n" +
+                    "- Limit caffeine\n\n" +
+                    "Lifestyle:\n" +
                     "- Manage stress\n" +
-                    "- Maintain healthy weight\n" +
-                    "- Healthy diet\n- Limit caffeine\n" +
+                    "- Increase physical activity (3 times / week)\n" +
+                    "- Maintain healthy weight (BMI < 22.9)\n" +
                     "- Stop smoking and/or drinking\n" +
-                    "- Sufficient sleep\n" +
-                    "- Increase physical activity\n" +
+                    "- Sufficient sleep\n\n" +
+                    "Medical:\n" +
                     "- Checkup regularly\n"
 
-            "(Stage 2 Hypertension)" -> binding.recommendationTV.text = "- Lower sodium intake\n" +
-                    "- Manage stress\n" +
-                    "- Maintain healthy weight\n" +
+            "(Stage 2 Hypertension)" -> binding.recommendationTV.text = "Diet:\n" +
                     "- Healthy diet\n" +
-                    "- Limit caffeine\n" +
+                    "- Lower sodium intake (< 1.5g / day)\n" +
+                    "- Limit caffeine\n\n" +
+                    "Lifestyle:\n" +
+                    "- Manage stress\n" +
+                    "- Increase physical activity (3 times / week)\n" +
+                    "- Maintain healthy weight (BMI < 22.9)\n" +
                     "- Stop smoking and/or drinking\n" +
-                    "- Sufficient sleep\n" +
-                    "- Increase physical activity\n" +
-                    "- Take medications\n" +
-                    "- Check up regularly\n" +
-                    "\n"
+                    "- Sufficient sleep\n\n" +
+                    "Medical: \n" +
+                    "- Take prescribed medications\n" +
+                    "- Check up regularly\n"
+
+            "(N/A)" -> binding.recommendationTV.text = "No recommendation available. Seek guidance from your doctor."
         }
     }
 }

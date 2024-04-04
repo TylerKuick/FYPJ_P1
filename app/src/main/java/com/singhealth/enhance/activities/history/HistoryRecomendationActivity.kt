@@ -14,6 +14,7 @@ import com.singhealth.enhance.R
 import com.singhealth.enhance.activities.DashboardActivity
 import com.singhealth.enhance.activities.MainActivity
 import com.singhealth.enhance.activities.diagnosis.diagnosePatient
+import com.singhealth.enhance.activities.diagnosis.sortPatientVisits
 import com.singhealth.enhance.activities.ocr.ScanActivity
 import com.singhealth.enhance.activities.patient.ProfileActivity
 import com.singhealth.enhance.databinding.ActivityRecommendationBinding
@@ -145,7 +146,8 @@ class HistoryRecomendationActivity : AppCompatActivity() {
     }
 
     private fun showControlStatus() {
-        if (patientAge >= 60) {
+        // P4B Version
+        /*if (patientAge >= 60) {
             if (avgSysBP >= 150 && avgDiaBP >= 90) {
                 binding.controlStatusTV.text = "This patient has sub-optimum BP control."
             } else if (avgSysBP >= 120 && avgDiaBP >= 80) {
@@ -168,8 +170,69 @@ class HistoryRecomendationActivity : AppCompatActivity() {
         } else {
             binding.controlStatusTV.text =
                 "Unable to provide control status for this patient. Manual intervention is required."
-        }
+        }*/
+
+        // P1 2024
+        // Control Status: How well the patient can control their BP (maintain BP under a limit), <140/90 for >18 yrs and <150/90 for >60 yrs
+        // Determined by taking the average of last 6 records (incl. most recent BP recording), if the average is under the limit, the patient
+        // exhibits good BP Control, else they have bad BP Control
+
+        var totalSys: Long = 0
+        var totalDia: Long = 0
+
+        // Reference to the patient's visits (including most recent one)
+        val collectionRef =
+            db.collection("patients").document(patientID.toString()).collection("visits")
+
+        collectionRef.get()
+            .addOnSuccessListener { documents ->
+                // Returns an array of objects containing the Sys/Dia BP values and date
+                val sortedVisits = sortPatientVisits(documents)
+                // Sum all of the Sys and Dia BP Values
+                for (i in 0..5) {
+                    var entry = sortedVisits[i]
+                    println(entry.date)
+                    val sysData = entry.avgSysBP
+                    val diaData = entry.avgDiaBP
+                    if (sysData != null && diaData != null) {
+                        totalSys += sysData
+                        totalDia += diaData
+                    }
+                }
+                // Average Sys BP throughout all visits
+                val avgSys = totalSys / 6
+                // Average Dia BP throughout all visits
+                val avgDia = totalDia / 6
+                println("avgSys: ${avgSys}, avgDia: ${avgDia}")
+                // Different Sys and Dia limits for different age groups
+                if (patientAge >= 60) {
+                    val sysLimit = 150
+                    val diaLimit = 90
+                    if (avgSys >= sysLimit || avgDia >= diaLimit) { // If either Sys or Dia BP exceed limit, patient has poor bp control
+                        println("Poor BP Control")
+                        binding.controlStatusTV.text = "Poor BP Control."
+                    } else {
+                        println("Good BP Control")
+                        binding.controlStatusTV.text = "Good BP Control"
+                    }
+                } else if (patientAge >= 18) {
+                    val sysLimit = 140
+                    val diaLimit = 90
+                    if (avgSys >= sysLimit || avgDia >= diaLimit) { // If either Sys or Dia BP exceed limit, patient has poor bp control
+                        println("Poor BP Control")
+                        binding.controlStatusTV.text = "Poor BP Control"
+                    } else {
+                        println("Good BP Control")
+                        binding.controlStatusTV.text = "Good BP Control"
+                    }
+                }
+
+            }
+            .addOnFailureListener { e ->
+                println(e)
+            }
     }
+
 
     @SuppressLint("SetTextI18n")
     private fun showRecommendation() {
@@ -213,34 +276,46 @@ class HistoryRecomendationActivity : AppCompatActivity() {
         var refBPStage = diagnosePatient(avgSysBP, avgDiaBP, null)
         println(refBPStage)
         when (refBPStage) {
-            "Normal BP" -> binding.recommendationTV.text =
-                "Continue maintaining healthy lifestyle"
+            "(Low BP)" -> binding.recommendationTV.text = ""
 
-            "High Normal BP" -> binding.recommendationTV.text = "- Lower sodium intake\n" +
-                    "- Maintain healthy weight\n" +
-                    "- Sufficient sleep\n" +
-                    "- Increase physical activity\n"
+            "(Normal BP)" -> binding.recommendationTV.text =
+                "Continue maintaining healthy lifestyle."
 
-            "Stage 1 Hypertension" -> binding.recommendationTV.text = "- Lower sodium intake\n" +
+            "(High Normal BP)" -> binding.recommendationTV.text = "Diet:\n" +
+                    "- Lower sodium intake (< 3.6g / day)\n\n" +
+                    "Lifestyle:\n" +
+                    "- Increase physical activity (3 times / week)\n" +
+                    "- Maintain healthy weight (BMI < 22.9)\n" +
+                    "- Sufficient sleep\n"
+
+            "(Stage 1 Hypertension)" -> binding.recommendationTV.text = "Diet:\n" +
+                    "- Healthy diet\n" +
+                    "- Lower sodium intake (< 2g / day)\n" +
+                    "- Limit caffeine\n\n" +
+                    "Lifestyle:\n" +
                     "- Manage stress\n" +
-                    "- Maintain healthy weight\n" +
-                    "- Healthy diet\n- Limit caffeine\n" +
+                    "- Increase physical activity (3 times / week)\n" +
+                    "- Maintain healthy weight (BMI < 22.9)\n" +
                     "- Stop smoking and/or drinking\n" +
-                    "- Sufficient sleep\n" +
-                    "- Increase physical activity\n" +
+                    "- Sufficient sleep\n\n" +
+                    "Medical:\n" +
                     "- Checkup regularly\n"
 
-            "Stage 2 Hypertension" -> binding.recommendationTV.text = "- Lower sodium intake\n" +
-                    "- Manage stress\n" +
-                    "- Maintain healthy weight\n" +
+            "(Stage 2 Hypertension)" -> binding.recommendationTV.text = "Diet:\n" +
                     "- Healthy diet\n" +
-                    "- Limit caffeine\n" +
+                    "- Lower sodium intake (< 1.5g / day)\n" +
+                    "- Limit caffeine\n\n" +
+                    "Lifestyle:\n" +
+                    "- Manage stress\n" +
+                    "- Increase physical activity (3 times / week)\n" +
+                    "- Maintain healthy weight (BMI < 22.9)\n" +
                     "- Stop smoking and/or drinking\n" +
-                    "- Sufficient sleep\n" +
-                    "- Increase physical activity\n" +
-                    "- Take medications\n" +
-                    "- Check up regularly\n" +
-                    "\n"
+                    "- Sufficient sleep\n\n" +
+                    "Medical: \n" +
+                    "- Take prescribed medications\n" +
+                    "- Check up regularly\n"
+
+            "(N/A)" -> binding.recommendationTV.text = "No recommendation available. Seek guidance from your doctor."
         }
     }
 }
