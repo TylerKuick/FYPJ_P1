@@ -287,11 +287,13 @@ class HistoryActivity : AppCompatActivity(), HistoryAdapter.OnItemClickListener 
         val clickedItem = sortedHistory[position]
         val avgSysBP = clickedItem.avgSysBP.toString()
         val avgDiaBP = clickedItem.avgDiaBP.toString()
+        val date = clickedItem.date.toString()
 
         val bundle = Bundle()
 
         bundle.putInt("avgSysBP", avgSysBP.toInt())
         bundle.putInt("avgDiaBP", avgDiaBP.toInt())
+        bundle.putString("date", date)
 
         val recommendationIntent = Intent(this, HistoryRecomendationActivity::class.java)
 

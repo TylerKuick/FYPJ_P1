@@ -1,6 +1,11 @@
 package com.singhealth.enhance.activities.diagnosis
 
+import android.annotation.SuppressLint
+import aws.smithy.kotlin.runtime.util.length
+import com.google.firebase.Firebase
+import com.google.firebase.firestore.CollectionReference
 import com.google.firebase.firestore.QuerySnapshot
+import com.google.firebase.firestore.firestore
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
@@ -14,9 +19,11 @@ fun diagnosePatient(recentSys: Long, recentDia: Long, recentDate: String?): Stri
     else {
         println("Most Recent Sys: $recentSys, Most Recent Dia: $recentDia")
     }
-
     // Determine patient BP Stage
-    var BPStage : String = if (recentSys <= 120 && recentDia <= 80) {
+    var BPStage : String = if (recentSys < 90 || recentDia < 60) {
+        "Low BP"
+    }
+    else if (recentSys <= 120 && recentDia <= 80) {
         "Normal BP"
     }
     else if (recentSys >= 160 || recentDia >= 100) {
@@ -55,9 +62,132 @@ fun sortPatientVisits(documents: QuerySnapshot) : List<Diag> {
             )
         )
     }
-    // Test
     // Sort array by date in descending order
     val sortedArr = arr.sortedByDescending { it.date }
 
     return sortedArr
+}
+
+fun showControlStatus(documents: QuerySnapshot, patientAge: Int, date : String?): String {
+    // P1 2024
+    // Control Status: How well the patient can control their BP (maintain BP under a limit), <140/90 for >18 yrs and <150/90 for >60 yrs
+    // Determined by taking the average of last 6 records (incl. most recent BP recording), if the average is under the limit, the patient
+    // exhibits good BP Control, else they have bad BP Control
+    var controlStat: String = "N/A"
+    var totalSys: Long = 0
+    var totalDia: Long = 0
+
+    // Returns an array of objects containing the Sys/Dia BP values and date
+    var sortedVisits = sortPatientVisits(documents)
+
+    // Check if a date is specified
+    if (date != null) {
+        // newSortedList contains all visits before and including the specified date
+        val (newSortedList, pass) = sortedVisits.partition{ it.date!! <= date }
+        sortedVisits = newSortedList
+    }
+    // Sum all of the Sys and Dia BP Values
+    try {
+        for (i in 0..5) {
+            var entry = sortedVisits[i]
+            println(entry.date)
+            val sysData = entry.avgSysBP
+            val diaData = entry.avgDiaBP
+            if (sysData != null && diaData != null) {
+                totalSys += sysData
+                totalDia += diaData
+            }
+        }
+    }
+    catch (e: IndexOutOfBoundsException) {
+        for (i in 0..sortedVisits.size-1) {
+            var entry = sortedVisits[i]
+            println(entry.date)
+            val sysData = entry.avgSysBP
+            val diaData = entry.avgDiaBP
+            if (sysData != null && diaData != null) {
+                totalSys += sysData
+                totalDia += diaData
+            }
+        }
+    }
+
+    // Average Sys BP throughout all visits
+    val avgSys = totalSys / 6
+    // Average Dia BP throughout all visits
+    val avgDia = totalDia / 6
+    // Different Sys and Dia limits for different age groups
+    if (patientAge >= 60) {
+        val sysLimit = 150
+        val diaLimit = 90
+        if (avgSys >= sysLimit || avgDia >= diaLimit) { // If either Sys or Dia BP exceed limit, patient has poor bp control
+            controlStat = "Poor BP Control. Patient's average blood pressure over the last 6 visits is above ${sysLimit}/${diaLimit} mmHg"
+            return controlStat
+        } else {
+            controlStat = "Good BP Control. Patient's average blood pressure over the last 6 visits is below 140/90 mmHg"
+            return controlStat
+        }
+    } else if (patientAge >= 18) {
+        val sysLimit = 140
+        val diaLimit = 90
+        if (avgSys >= sysLimit || avgDia >= diaLimit) { // If either Sys or Dia BP exceed limit, patient has poor bp control
+            controlStat = "Poor BP Control. Patient's average blood pressure over the last 6 visits is above ${sysLimit}/${diaLimit} mmHg"
+            return controlStat
+        } else {
+            controlStat = "Good BP Control. Patient's average blood pressure over the last 6 visits is below 140/90 mmHg"
+            return controlStat
+        }
+    }
+    return controlStat
+}
+
+@SuppressLint("SetTextI18n")
+fun showRecommendation(bpStage: String) : String{
+    // P1 2024 Version
+    // Provide categories of recommendation based on the patient's current BP Stage
+    var recoText : String = "No Recommendations"
+    when (bpStage) {
+        "Low BP" -> recoText = ""
+
+        "Normal BP" -> recoText =
+            "Continue maintaining healthy lifestyle."
+
+        "High Normal BP" -> recoText = "Diet:\n" +
+                "- Lower sodium intake (< 3.6g / day)\n\n" +
+                "Lifestyle:\n" +
+                "- Increase physical activity (2.5 - 5 hours / week)\n" +
+                "- Maintain healthy weight (BMI < 22.9)\n" +
+                "- Sufficient sleep (>7 hours / night)\n"
+
+        "Stage 1 Hypertension" -> recoText = "Diet:\n" +
+                "- Healthy diet\n" +
+                "- Lower sodium intake (< 2g / day)\n" +
+                "- Limit caffeine\n\n" +
+                "Lifestyle:\n" +
+                "- Manage stress\n" +
+                "- Increase physical activity (2.5 - 5 hours / week)\n" +
+                "- Maintain healthy weight (BMI < 22.9)\n" +
+                "- Stop smoking and/or drinking\n" +
+                "- Sufficient sleep (>7 hours / night)\n\n" +
+                "Medical:\n" +
+                "- Checkup regularly\n"
+
+        "Stage 2 Hypertension" -> recoText = "Diet:\n" +
+                "- Healthy diet\n" +
+                "- Lower sodium intake (< 1.5g / day)\n" +
+                "- Limit caffeine\n\n" +
+                "Lifestyle:\n" +
+                "- Manage stress\n" +
+                "- Increase physical activity (2.5 - 5 hours / week)\n" +
+                "- Maintain healthy weight (BMI < 22.9)\n" +
+                "- Stop smoking and/or drinking\n" +
+                "- Sufficient sleep (>7 hours / night)\n\n" +
+                "Medical: \n" +
+                "- Take prescribed medications\n" +
+                "- Check up regularly\n"
+
+        "N/A" -> recoText = "No recommendation available. Seek guidance from your doctor."
+    }
+
+    return recoText
 }
