@@ -106,14 +106,13 @@ class RecommendationActivity : AppCompatActivity() {
         avgSysBP = avgBPBundle!!.getInt("avgSysBP").toLong()
         avgDiaBP = avgBPBundle!!.getInt("avgDiaBP").toLong()
 
+        // Determine BP Stage
+        val bpStage = diagnosePatient(avgSysBP, avgDiaBP, null)
 
         // Display average BP
         binding.avgHomeSysBPTV.text = avgSysBP.toString()
         binding.avgHomeDiaBPTV.text = avgDiaBP.toString()
 
-        // Display BP Stage
-        val bpStage = diagnosePatient(avgSysBP, avgDiaBP, null)
-        binding.bpStage.text = "(${bpStage})"
 
         // Calculate patient's age
         val docRef = db.collection("patients").document(patientID.toString())
@@ -133,7 +132,17 @@ class RecommendationActivity : AppCompatActivity() {
                     val collectionRef = docRef.collection("visits")
                     collectionRef.get()
                         .addOnSuccessListener { documents ->
-                            binding.controlStatusTV.text = showControlStatus(documents, patientAge, null)
+                            // Display BP Stage and correct Control Status based on the Source Activity
+                            if (avgBPBundle.getString("Source") == "History") {
+                                val date = avgBPBundle.getString("date").toString()
+                                binding.bpStage.text = ""
+                                binding.controlStatusTV.text = showControlStatus(documents, patientAge, date)
+                            }
+                            else if (avgBPBundle.getString("Source") == "Scan") {
+                                // Display BP Stage
+                                binding.bpStage.text = "(${bpStage})"
+                                binding.controlStatusTV.text = showControlStatus(documents, patientAge, null)
+                            }
                             binding.recommendationTV.text = showRecommendation(bpStage)
                         }
                 }

@@ -23,6 +23,7 @@ import java.time.format.DateTimeFormatter
 import com.github.mikephil.charting.charts.LineChart
 import java.util.*
 import com.singhealth.enhance.activities.DashboardActivity
+import com.singhealth.enhance.activities.result.RecommendationActivity
 
 
 class HistoryActivity : AppCompatActivity(), HistoryAdapter.OnItemClickListener {
@@ -294,8 +295,9 @@ class HistoryActivity : AppCompatActivity(), HistoryAdapter.OnItemClickListener 
         bundle.putInt("avgSysBP", avgSysBP.toInt())
         bundle.putInt("avgDiaBP", avgDiaBP.toInt())
         bundle.putString("date", date)
+        bundle.putString("Source", "History")
 
-        val recommendationIntent = Intent(this, HistoryRecomendationActivity::class.java)
+        val recommendationIntent = Intent(this, RecommendationActivity::class.java)
 
         recommendationIntent.putExtras(bundle)
 

@@ -221,6 +221,7 @@ class VerifyScanActivity : AppCompatActivity() {
 
                         bundle.putInt("avgSysBP", avgSysBP)
                         bundle.putInt("avgDiaBP", avgDiaBP)
+                        bundle.putString("Source", "Scan")
 
                         val recommendationIntent = Intent(this, RecommendationActivity::class.java)
 

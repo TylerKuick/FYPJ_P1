@@ -86,29 +86,20 @@ fun showControlStatus(documents: QuerySnapshot, patientAge: Int, date : String?)
         val (newSortedList, pass) = sortedVisits.partition{ it.date!! <= date }
         sortedVisits = newSortedList
     }
-    // Sum all of the Sys and Dia BP Values
-    try {
-        for (i in 0..5) {
-            var entry = sortedVisits[i]
-            println(entry.date)
-            val sysData = entry.avgSysBP
-            val diaData = entry.avgDiaBP
-            if (sysData != null && diaData != null) {
-                totalSys += sysData
-                totalDia += diaData
-            }
-        }
+    // Fixed len represents number of visits to refer to when determining control status
+    var len = 6
+    if (sortedVisits.size < len) {
+        len = sortedVisits.size - 1
     }
-    catch (e: IndexOutOfBoundsException) {
-        for (i in 0..sortedVisits.size-1) {
-            var entry = sortedVisits[i]
-            println(entry.date)
-            val sysData = entry.avgSysBP
-            val diaData = entry.avgDiaBP
-            if (sysData != null && diaData != null) {
-                totalSys += sysData
-                totalDia += diaData
-            }
+    // Sum all of the Sys and Dia BP Values from last 6 records (incl. scan)
+    for (i in 0..len) {
+        var entry = sortedVisits[i]
+        println(entry.date)
+        val sysData = entry.avgSysBP
+        val diaData = entry.avgDiaBP
+        if (sysData != null && diaData != null) {
+            totalSys += sysData
+            totalDia += diaData
         }
     }
 
