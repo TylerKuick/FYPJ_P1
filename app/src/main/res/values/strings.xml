@@ -35,4 +35,11 @@
 
     <string name="dialog_positive_ok">OK</string>
     <string name="bp_stage">BP Stage</string>
+    <string name="medical">Medical:</string>
+    <string name="lifestyle">Lifestyle:</string>
+    <string name="diet">Diet:</string>
+    <string name="recommendation">~ Recommendation:</string>
+    <string name="control_status">~ Control Status:</string>
+    <string name="bpDivider">/</string>
+    <string name="average_home_bp">~ Average Home BP:</string>
 </resources>

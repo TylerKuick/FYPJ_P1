@@ -143,7 +143,10 @@ class RecommendationActivity : AppCompatActivity() {
                                 binding.bpStage.text = "(${bpStage})"
                                 binding.controlStatusTV.text = showControlStatus(documents, patientAge, null)
                             }
-                            binding.recommendationTV.text = showRecommendation(bpStage)
+                            var recoList = showRecommendation(bpStage)
+                            binding.dietTV.text = recoList[0]
+                            binding.lifestyleTV.text = recoList[1]
+                            binding.medTV.text = recoList[2]
                         }
                 }
             }

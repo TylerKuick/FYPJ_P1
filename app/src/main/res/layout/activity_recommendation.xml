@@ -33,7 +33,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="6dp"
-            android:text="~ Average Home BP:" />
+            android:text="@string/average_home_bp" />
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -52,7 +52,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginHorizontal="8dp"
-                android:text="/"
+                android:text="@string/bpDivider"
                 android:textSize="18sp" />
 
             <TextView
@@ -76,7 +76,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="6dp"
-            android:text="~ Control Status:" />
+            android:text="@string/control_status" />
 
         <TextView
             android:id="@+id/controlStatusTV"
@@ -90,22 +90,39 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="6dp"
-            android:text="~ Recommendation:" />
+            android:text="@string/recommendation" />
 
         <TextView
-            android:id="@+id/recommendationTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="@string/diet" />
+        <TextView
+            android:id="@+id/dietTV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18sp"
             android:textStyle="bold" />
+
         <TextView
-            android:id="@+id/recommendationTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="@string/lifestyle" />
+        <TextView
+            android:id="@+id/lifestyleTV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18sp"
             android:textStyle="bold" />
+
         <TextView
-            android:id="@+id/recommendationTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="@string/medical" />
+        <TextView
+            android:id="@+id/medTV"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textSize="18sp"
