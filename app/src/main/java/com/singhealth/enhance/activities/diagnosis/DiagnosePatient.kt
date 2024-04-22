@@ -138,52 +138,59 @@ fun showControlStatus(documents: QuerySnapshot, patientAge: Int, date : String?)
 }
 
 @SuppressLint("SetTextI18n")
-fun showRecommendation(bpStage: String) : String{
+fun showRecommendation(bpStage: String) : ArrayList<String>{
     // P1 2024 Version
     // Provide categories of recommendation based on the patient's current BP Stage
-    var recoText : String = "No Recommendations"
+
+    var dietText : String = "No Recommendations"
+    var lifestyleText : String = "No Recommendations"
+    var medicalText : String = "No Recommendations"
+    var ouputList = ArrayList <String>()
     when (bpStage) {
-        "Low BP" -> recoText = ""
 
-        "Normal BP" -> recoText =
-            "Continue maintaining healthy lifestyle."
+        "Normal BP" -> { dietText = "Continue maintaining healthy lifestyle."
+                       lifestyleText = "Continue maintaining healthy lifestyle."
+                       medicalText = "Continue maintaining healthy lifestyle." }
 
-        "High Normal BP" -> recoText = "Diet:\n" +
-                "- Lower sodium intake (< 3.6g / day)\n\n" +
-                "Lifestyle:\n" +
+        "High Normal BP" ->{  dietText= "Diet:\n" +
+                "- Lower sodium intake (< 3.6g / day)\n\n"
+                lifestyleText = "Lifestyle:\n" +
                 "- Increase physical activity (2.5 - 5 hours / week)\n" +
                 "- Maintain healthy weight (BMI < 22.9)\n" +
-                "- Sufficient sleep (>7 hours / night)\n"
+                "- Sufficient sleep (>7 hours / night)\n"}
 
-        "Stage 1 Hypertension" -> recoText = "Diet:\n" +
+        "Stage 1 Hypertension" -> {dietText = "Diet:\n" +
                 "- Healthy diet\n" +
                 "- Lower sodium intake (< 2g / day)\n" +
-                "- Limit caffeine\n\n" +
-                "Lifestyle:\n" +
+                "- Limit caffeine\n\n"
+                lifestyleText = "Lifestyle:\n" +
                 "- Manage stress\n" +
                 "- Increase physical activity (2.5 - 5 hours / week)\n" +
                 "- Maintain healthy weight (BMI < 22.9)\n" +
                 "- Stop smoking and/or drinking\n" +
-                "- Sufficient sleep (>7 hours / night)\n\n" +
-                "Medical:\n" +
-                "- Checkup regularly\n"
+                "- Sufficient sleep (>7 hours / night)\n\n"
+                 medicalText = "Medical:\n" +
+                "- Checkup regularly\n"}
 
-        "Stage 2 Hypertension" -> recoText = "Diet:\n" +
+        "Stage 2 Hypertension" -> {dietText = "Diet:\n" +
                 "- Healthy diet\n" +
                 "- Lower sodium intake (< 1.5g / day)\n" +
-                "- Limit caffeine\n\n" +
-                "Lifestyle:\n" +
+                "- Limit caffeine\n\n"
+                lifestyleText = "Lifestyle:\n" +
                 "- Manage stress\n" +
                 "- Increase physical activity (2.5 - 5 hours / week)\n" +
                 "- Maintain healthy weight (BMI < 22.9)\n" +
                 "- Stop smoking and/or drinking\n" +
-                "- Sufficient sleep (>7 hours / night)\n\n" +
-                "Medical: \n" +
+                "- Sufficient sleep (>7 hours / night)\n\n"
+                medicalText="Medical: \n" +
                 "- Take prescribed medications\n" +
-                "- Check up regularly\n"
+                "- Check up regularly\n"}
 
-        "N/A" -> recoText = "No recommendation available. Seek guidance from your doctor."
+        "N/A" -> dietText = "No recommendation available. Seek guidance from your doctor."
     }
+ouputList.add(dietText)
+ouputList.add(lifestyleText)
+ouputList.add(medicalText)
 
-    return recoText
+    return ouputList
 }
