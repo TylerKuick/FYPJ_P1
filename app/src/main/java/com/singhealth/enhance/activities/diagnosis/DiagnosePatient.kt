@@ -141,9 +141,9 @@ fun showControlStatus(documents: QuerySnapshot, patientAge: Int, date : String?)
 fun showRecommendation(bpStage: String) : ArrayList<String>{
     // P1 2024 Version
     // Provide categories of recommendation based on the patient's current BP Stage
-    var dietText : String = "No Recommendations"
-    var lifestyleText : String = "No Recommendations"
-    var medicalText : String = "No Recommendations"
+    var dietText : String = "No Recommendations\n"
+    var lifestyleText : String = "No Recommendations\n"
+    var medicalText : String = "No Recommendations\n"
     var ouputList = ArrayList <String>()
     when (bpStage) {
 
@@ -152,7 +152,7 @@ fun showRecommendation(bpStage: String) : ArrayList<String>{
                        medicalText = "Continue maintaining healthy lifestyle." }
 
         "High Normal BP" ->{
-            dietText= "- Lower sodium intake (< 3.6g / day)\n\n"
+            dietText= "- Lower sodium intake (< 3.6g / day)\n"
             lifestyleText = "- Increase physical activity (2.5 - 5 hours / week)\n" +
                 "- Maintain healthy weight (BMI < 22.9)\n" +
                 "- Sufficient sleep (>7 hours / night)\n"}
@@ -172,12 +172,12 @@ fun showRecommendation(bpStage: String) : ArrayList<String>{
         "Stage 2 Hypertension" -> {
             dietText = "- Healthy diet\n" +
                 "- Lower sodium intake (< 1.5g / day)\n" +
-                "- Limit caffeine\n\n"
+                "- Limit caffeine\n"
             lifestyleText = "- Manage stress\n" +
                 "- Increase physical activity (2.5 - 5 hours / week)\n" +
                 "- Maintain healthy weight (BMI < 22.9)\n" +
                 "- Stop smoking and/or drinking\n" +
-                "- Sufficient sleep (>7 hours / night)\n\n"
+                "- Sufficient sleep (>7 hours / night)\n"
             medicalText="- Take prescribed medications\n" +
                 "- Check up regularly\n"
         }

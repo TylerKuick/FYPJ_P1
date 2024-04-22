@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.content.Intent
 import android.os.Bundle
 import android.view.MenuItem
+import android.view.View
 import android.widget.Toast
 import androidx.activity.OnBackPressedCallback
 import androidx.appcompat.app.AppCompatActivity
@@ -147,6 +148,9 @@ class RecommendationActivity : AppCompatActivity() {
                             binding.dietTV.text = recoList[0]
                             binding.lifestyleTV.text = recoList[1]
                             binding.medTV.text = recoList[2]
+
+                            // If / When Statement for setting image
+                            binding.IV.setImageResource(R.drawable.ic_error) //Change to Image id
                         }
                 }
             }

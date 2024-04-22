@@ -92,41 +92,53 @@
             android:layout_marginBottom="6dp"
             android:text="@string/recommendation" />
 
+        <ImageView
+            android:id="@+id/IV"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="6dp"
+            android:textSize="18sp"
+            android:background="@color/diet"
             android:text="@string/diet" />
         <TextView
             android:id="@+id/dietTV"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:background="@color/diet"
+            android:layout_marginBottom="6dp"
+            />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="6dp"
+            android:textSize="18sp"
+            android:background="@color/lifestyle"
             android:text="@string/lifestyle" />
         <TextView
             android:id="@+id/lifestyleTV"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/lifestyle"
             android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginBottom="6dp"
+            android:background="@color/medical"
+            android:textSize="18sp"
             android:text="@string/medical" />
         <TextView
             android:id="@+id/medTV"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@color/medical"
             android:textSize="18sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:layout_marginBottom="6dp"/>
 
     </LinearLayout>
 
