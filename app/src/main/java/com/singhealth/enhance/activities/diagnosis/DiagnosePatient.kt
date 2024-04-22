@@ -70,8 +70,9 @@ fun sortPatientVisits(documents: QuerySnapshot) : List<Diag> {
 
 fun showControlStatus(documents: QuerySnapshot, patientAge: Int, date : String?): String {
     // P1 2024
-    // Control Status: How well the patient can control their BP (maintain BP under a limit), <140/90 for >18 yrs and <150/90 for >60 yrs
-    // Determined by taking the average of last 6 records (incl. most recent BP recording), if the average is under the limit, the patient
+    // Control Status: How well the patient can control their BP (maintain BP under a limit),
+    // <140/90 for >18 yrs and <150/90 for >60 yrs. Determined by taking the average of last 6
+    // records (incl. most recent BP recording), if the average is under the limit, the patient
     // exhibits good BP Control, else they have bad BP Control
     var controlStat: String = "N/A"
     var totalSys: Long = 0
@@ -86,11 +87,15 @@ fun showControlStatus(documents: QuerySnapshot, patientAge: Int, date : String?)
         val (newSortedList, pass) = sortedVisits.partition{ it.date!! <= date }
         sortedVisits = newSortedList
     }
+
+
     // Fixed len represents number of visits to refer to when determining control status
     var len = 6
-    if (sortedVisits.size < len) {
+    // When number of visits is less than 6, make len the size of list
+    if (sortedVisits.size <= len) {
         len = sortedVisits.size - 1
     }
+
     // Sum all of the Sys and Dia BP Values from last 6 records (incl. scan)
     for (i in 0..len) {
         var entry = sortedVisits[i]
@@ -104,28 +109,28 @@ fun showControlStatus(documents: QuerySnapshot, patientAge: Int, date : String?)
     }
 
     // Average Sys BP throughout all visits
-    val avgSys = totalSys / 6
+    val avgSys = totalSys / len
     // Average Dia BP throughout all visits
-    val avgDia = totalDia / 6
+    val avgDia = totalDia / len
     // Different Sys and Dia limits for different age groups
     if (patientAge >= 60) {
         val sysLimit = 150
         val diaLimit = 90
         if (avgSys >= sysLimit || avgDia >= diaLimit) { // If either Sys or Dia BP exceed limit, patient has poor bp control
-            controlStat = "Poor BP Control. Patient's average blood pressure over the last 6 visits is above ${sysLimit}/${diaLimit} mmHg"
+            controlStat = "Poor BP Control. Patient's average blood pressure over the last ${len} visits is above ${sysLimit}/${diaLimit} mmHg"
             return controlStat
         } else {
-            controlStat = "Good BP Control. Patient's average blood pressure over the last 6 visits is below 140/90 mmHg"
+            controlStat = "Good BP Control. Patient's average blood pressure over the last ${len} visits is below 140/90 mmHg"
             return controlStat
         }
     } else if (patientAge >= 18) {
         val sysLimit = 140
         val diaLimit = 90
         if (avgSys >= sysLimit || avgDia >= diaLimit) { // If either Sys or Dia BP exceed limit, patient has poor bp control
-            controlStat = "Poor BP Control. Patient's average blood pressure over the last 6 visits is above ${sysLimit}/${diaLimit} mmHg"
+            controlStat = "Poor BP Control. Patient's average blood pressure over the last ${len} visits is above ${sysLimit}/${diaLimit} mmHg"
             return controlStat
         } else {
-            controlStat = "Good BP Control. Patient's average blood pressure over the last 6 visits is below 140/90 mmHg"
+            controlStat = "Good BP Control. Patient's average blood pressure over the last ${len} visits is below 140/90 mmHg"
             return controlStat
         }
     }

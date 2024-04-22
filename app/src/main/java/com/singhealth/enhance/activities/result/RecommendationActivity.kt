@@ -135,7 +135,7 @@ class RecommendationActivity : AppCompatActivity() {
                             // Display BP Stage and correct Control Status based on the Source Activity
                             if (avgBPBundle.getString("Source") == "History") {
                                 val date = avgBPBundle.getString("date").toString()
-                                binding.bpStage.text = ""
+                                binding.bpStage.text = "(${bpStage})"
                                 binding.controlStatusTV.text = showControlStatus(documents, patientAge, date)
                             }
                             else if (avgBPBundle.getString("Source") == "Scan") {
