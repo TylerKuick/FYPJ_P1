@@ -2,8 +2,11 @@ R_DEF: Internal format may change without notice
 local
 array chart_names
 color black
+color diet
 color ic_launcher_background
+color lifestyle
 color light_grey
+color medical
 color theme_primary
 color theme_primary_variant
 color theme_secondary
@@ -24,6 +27,8 @@ drawable chart2
 drawable chart3
 drawable chart4
 drawable chart5
+drawable diet_lower_bg
+drawable diet_upper_bg
 drawable ic_arrow_outward
 drawable ic_camera_alt
 drawable ic_chart
@@ -47,6 +52,10 @@ drawable ic_save
 drawable ic_settings
 drawable ic_swap_horizontal_circle
 drawable ic_textsms
+drawable lifestyle_lower_bg
+drawable lifestyle_upper_bg
+drawable medical_lower_bg
+drawable medical_upper_bg
 drawable nyp_logo
 drawable popup_background
 drawable ripple_settings_item
@@ -81,6 +90,7 @@ id dateTV
 id diaBPTIET
 id diastolicChartTitle
 id diastolicLineChart
+id dietTV
 id discardBS
 id dobTV
 id drawerLayout
@@ -111,9 +121,11 @@ id item_settings
 id legalNameTIET
 id legalNameTIL
 id legalNameTV
+id lifestyleTV
 id loginBtn
 id logoIV
 id logoutRL
+id medTV
 id moreOptionsBtn
 id navigationView
 id newPatientRegistrationBtn
@@ -128,7 +140,6 @@ id photoIV
 id photoTV
 id profileLL
 id progressBar
-id recommendationTV
 id recyclerView
 id registerBtn
 id removeRowIV
@@ -139,6 +150,7 @@ id searchRecordBtn
 id selectSourceBtn
 id staffIDTIET
 id staffIDTIL
+id statusIV
 id supportIV
 id swapValuesIV
 id sysBPTIET
@@ -181,11 +193,15 @@ raw amplifyconfiguration
 raw awsconfiguration
 string about_enhance_title
 string app_name
+string average_home_bp
+string bpDivider
 string bp_stage
 string cancel_dialog
 string contact_helpdesk_title
+string control_status
 string dashboard_title
 string dialog_positive_ok
+string diet
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
@@ -193,13 +209,16 @@ string google_crash_reporting_api_key
 string google_storage_bucket
 string history_title
 string home_title
+string lifestyle
 string logout_title
+string medical
 string no_dialog
 string ok_dialog
 string patient_registration_title
 string privacy_statement_title
 string profile_title
 string project_id
+string recommendation
 string report_vulnerability_title
 string scan_title
 string section_account_title

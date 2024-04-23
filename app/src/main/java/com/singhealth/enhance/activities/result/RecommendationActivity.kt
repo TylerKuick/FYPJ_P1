@@ -150,7 +150,7 @@ class RecommendationActivity : AppCompatActivity() {
                             binding.medTV.text = recoList[2]
 
                             // If / When Statement for setting image
-                            binding.IV.setImageResource(R.drawable.ic_error) //Change to Image id
+                            binding.statusIV.setImageResource(R.drawable.ic_error) //Change to Image id
                         }
                 }
             }

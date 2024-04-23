@@ -4,6 +4,7 @@ package com.singhealth.enhance.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.ImageView;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -36,19 +37,32 @@ public final class ActivityRecommendationBinding implements ViewBinding {
   public final TextView controlStatusTV;
 
   @NonNull
-  public final TextView recommendationTV;
+  public final TextView dietTV;
+
+  @NonNull
+  public final TextView lifestyleTV;
+
+  @NonNull
+  public final TextView medTV;
+
+  @NonNull
+  public final ImageView statusIV;
 
   private ActivityRecommendationBinding(@NonNull RelativeLayout rootView,
       @NonNull TextView avgHomeDiaBPTV, @NonNull TextView avgHomeSysBPTV,
       @NonNull BottomNavigationView bottomNavigationView, @NonNull TextView bpStage,
-      @NonNull TextView controlStatusTV, @NonNull TextView recommendationTV) {
+      @NonNull TextView controlStatusTV, @NonNull TextView dietTV, @NonNull TextView lifestyleTV,
+      @NonNull TextView medTV, @NonNull ImageView statusIV) {
     this.rootView = rootView;
     this.avgHomeDiaBPTV = avgHomeDiaBPTV;
     this.avgHomeSysBPTV = avgHomeSysBPTV;
     this.bottomNavigationView = bottomNavigationView;
     this.bpStage = bpStage;
     this.controlStatusTV = controlStatusTV;
-    this.recommendationTV = recommendationTV;
+    this.dietTV = dietTV;
+    this.lifestyleTV = lifestyleTV;
+    this.medTV = medTV;
+    this.statusIV = statusIV;
   }
 
   @Override
@@ -108,14 +122,33 @@ public final class ActivityRecommendationBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.recommendationTV;
-      TextView recommendationTV = ViewBindings.findChildViewById(rootView, id);
-      if (recommendationTV == null) {
+      id = R.id.dietTV;
+      TextView dietTV = ViewBindings.findChildViewById(rootView, id);
+      if (dietTV == null) {
+        break missingId;
+      }
+
+      id = R.id.lifestyleTV;
+      TextView lifestyleTV = ViewBindings.findChildViewById(rootView, id);
+      if (lifestyleTV == null) {
+        break missingId;
+      }
+
+      id = R.id.medTV;
+      TextView medTV = ViewBindings.findChildViewById(rootView, id);
+      if (medTV == null) {
+        break missingId;
+      }
+
+      id = R.id.statusIV;
+      ImageView statusIV = ViewBindings.findChildViewById(rootView, id);
+      if (statusIV == null) {
         break missingId;
       }
 
       return new ActivityRecommendationBinding((RelativeLayout) rootView, avgHomeDiaBPTV,
-          avgHomeSysBPTV, bottomNavigationView, bpStage, controlStatusTV, recommendationTV);
+          avgHomeSysBPTV, bottomNavigationView, bpStage, controlStatusTV, dietTV, lifestyleTV,
+          medTV, statusIV);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

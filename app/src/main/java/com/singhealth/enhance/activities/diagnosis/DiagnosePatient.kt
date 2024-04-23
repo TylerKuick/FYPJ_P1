@@ -147,9 +147,9 @@ fun showRecommendation(bpStage: String) : ArrayList<String>{
     var ouputList = ArrayList <String>()
     when (bpStage) {
 
-        "Normal BP" -> { dietText = "Continue maintaining healthy lifestyle."
-                       lifestyleText = "Continue maintaining healthy lifestyle."
-                       medicalText = "Continue maintaining healthy lifestyle." }
+        "Normal BP" -> { dietText = "Continue maintaining healthy lifestyle.\n"
+                       lifestyleText = "Continue maintaining healthy lifestyle.\n"
+                       medicalText = "Continue maintaining healthy lifestyle.\n" }
 
         "High Normal BP" ->{
             dietText= "- Lower sodium intake (< 3.6g / day)\n"

@@ -93,20 +93,25 @@
             android:text="@string/recommendation" />
 
         <ImageView
-            android:id="@+id/IV"/>
+            android:id="@+id/statusIV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="18sp"
-            android:background="@color/diet"
+            android:background="@drawable/diet_upper_bg"
+            android:padding="10sp"
+            android:textStyle="bold"
             android:text="@string/diet" />
         <TextView
             android:id="@+id/dietTV"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="18sp"
-            android:textStyle="bold"
-            android:background="@color/diet"
+            android:background="@drawable/diet_lower_bg"
+            android:padding="10sp"
             android:layout_marginBottom="6dp"
             />
 
@@ -114,30 +119,34 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textSize="18sp"
-            android:background="@color/lifestyle"
+            android:background="@drawable/lifestyle_upper_bg"
+            android:padding="10sp"
+            android:textStyle="bold"
             android:text="@string/lifestyle" />
         <TextView
             android:id="@+id/lifestyleTV"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/lifestyle"
+            android:background="@drawable/lifestyle_lower_bg"
+            android:padding="10sp"
             android:textSize="18sp"
-            android:textStyle="bold"
             android:layout_marginBottom="6dp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/medical"
+            android:background="@drawable/medical_upper_bg"
+            android:padding="10sp"
             android:textSize="18sp"
+            android:textStyle="bold"
             android:text="@string/medical" />
         <TextView
             android:id="@+id/medTV"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/medical"
+            android:background="@drawable/medical_lower_bg"
+            android:padding="10sp"
             android:textSize="18sp"
-            android:textStyle="bold"
             android:layout_marginBottom="6dp"/>
 
     </LinearLayout>

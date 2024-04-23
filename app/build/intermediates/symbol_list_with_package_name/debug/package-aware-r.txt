@@ -1494,6 +1494,7 @@ color design_fab_stroke_top_inner_color
 color design_fab_stroke_top_outer_color
 color design_icon_tint
 color design_snackbar_background_color
+color diet
 color dim_foreground_disabled_material_dark
 color dim_foreground_disabled_material_light
 color dim_foreground_material_dark
@@ -1505,6 +1506,7 @@ color foreground_material_light
 color highlighted_text_material_dark
 color highlighted_text_material_light
 color ic_launcher_background
+color lifestyle
 color light_grey
 color m3_appbar_overlay_color
 color m3_assist_chip_icon_tint_color
@@ -2075,6 +2077,7 @@ color material_timepicker_button_stroke
 color material_timepicker_clock_text_color
 color material_timepicker_clockface
 color material_timepicker_modebutton_tint
+color medical
 color mtrl_btn_bg_color_selector
 color mtrl_btn_ripple_color
 color mtrl_btn_stroke_color_selector
@@ -3089,6 +3092,8 @@ drawable design_ic_visibility
 drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
+drawable diet_lower_bg
+drawable diet_upper_bg
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable ic_arrow_back_24
@@ -3130,6 +3135,8 @@ drawable ic_search_black_24
 drawable ic_settings
 drawable ic_swap_horizontal_circle
 drawable ic_textsms
+drawable lifestyle_lower_bg
+drawable lifestyle_upper_bg
 drawable m3_appbar_background
 drawable m3_avd_hide_password
 drawable m3_avd_show_password
@@ -3152,6 +3159,8 @@ drawable material_ic_keyboard_arrow_previous_black_24dp
 drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
+drawable medical_lower_bg
+drawable medical_upper_bg
 drawable mtrl_bottomsheet_drag_handle
 drawable mtrl_checkbox_button
 drawable mtrl_checkbox_button_checked_unchecked
@@ -3412,6 +3421,7 @@ id diaBPTIET
 id dialog_button
 id diastolicChartTitle
 id diastolicLineChart
+id dietTV
 id dimensions
 id direct
 id disableHome
@@ -3546,6 +3556,7 @@ id legacy
 id legalNameTIET
 id legalNameTIL
 id legalNameTV
+id lifestyleTV
 id light
 id line1
 id line3
@@ -3585,6 +3596,7 @@ id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
 id matrix
+id medTV
 id media_actions
 id message
 id middle
@@ -3697,7 +3709,6 @@ id progress_circular
 id progress_horizontal
 id radio
 id ratio
-id recommendationTV
 id rectangle
 id rectangleHorizontalOnly
 id rectangleVerticalOnly
@@ -3781,6 +3792,7 @@ id startToEnd
 id startVertical
 id staticLayout
 id staticPostLayout
+id statusIV
 id status_bar_latest_event_content
 id stop
 id stretch
@@ -4149,12 +4161,14 @@ string all_logs
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior
+string average_home_bp
 string bottom_sheet_behavior
 string bottomsheet_action_collapse
 string bottomsheet_action_expand
 string bottomsheet_action_expand_halfway
 string bottomsheet_drag_handle_clicked
 string bottomsheet_drag_handle_content_description
+string bpDivider
 string bp_stage
 string cancel_dialog
 string character_counter_content_description
@@ -4180,6 +4194,7 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string contact_helpdesk_title
+string control_status
 string copy_issue_text
 string copy_toast_msg
 string crop_image_menu_crop
@@ -4188,6 +4203,7 @@ string debug
 string device_button_title
 string device_view_title
 string dialog_positive_ok
+string diet
 string env_button_title
 string env_view_title
 string error
@@ -4219,6 +4235,7 @@ string ic_rotate_right_24
 string icon_content_description
 string info
 string item_view_role_description
+string lifestyle
 string log_level_filter
 string logout_title
 string logs_button_title
@@ -4261,6 +4278,7 @@ string material_timepicker_minute
 string material_timepicker_pm
 string material_timepicker_select_time
 string material_timepicker_text_input_mode_description
+string medical
 string menu_title
 string mtrl_badge_numberless_content_description
 string mtrl_checkbox_button_icon_path_checked
@@ -4343,6 +4361,7 @@ string placeholder_logs
 string privacy_statement_title
 string profile_title
 string project_id
+string recommendation
 string report_vulnerability_title
 string scan_title
 string search_logs_hint
