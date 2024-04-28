@@ -150,7 +150,15 @@ class RecommendationActivity : AppCompatActivity() {
                             binding.medTV.text = recoList[2]
 
                             // If / When Statement for setting image
-                            binding.IV.setImageResource(R.drawable.ic_error) //Change to Image id
+                            //binding.IV.setImageResource(R.drawable.ic_error) //Change to Image id
+                            val imageResource = when (bpStage) {
+                                "Normal BP" -> R.drawable.excellent
+                                "High Normal BP" -> R.drawable.good
+                                "Stage 1 Hypertension" -> R.drawable.neutral
+                                "Stage 2 Hypertension" -> R.drawable.poor
+                                else -> R.drawable.ic_error // Default image if the stage is not recognized
+                            }
+                            binding.statusIV.setImageResource(imageResource)
                         }
                 }
             }
