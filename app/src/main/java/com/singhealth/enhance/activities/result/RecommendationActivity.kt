@@ -158,7 +158,7 @@ class RecommendationActivity : AppCompatActivity() {
                                 "Stage 2 Hypertension" -> R.drawable.poor
                                 else -> R.drawable.ic_error // Default image if the stage is not recognized
                             }
-                            binding.statusIV .setImageResource(imageResource)
+                            binding.statusIV.setImageResource(imageResource)
                         }
                 }
             }
