@@ -56,6 +56,10 @@
         "source": "com.singhealth.enhance.app-main-55:/drawable/poor.png"
     },
     {
+        "merged": "com.singhealth.enhance.app-merged_res-53:/drawable_diet_upper_bg.xml.flat",
+        "source": "com.singhealth.enhance.app-main-55:/drawable/diet_upper_bg.xml"
+    },
+    {
         "merged": "com.singhealth.enhance.app-merged_res-53:/drawable-anydpi_ic_camera_alt.xml.flat",
         "source": "com.singhealth.enhance.app-main-55:/drawable-anydpi/ic_camera_alt.xml"
     },
@@ -118,6 +122,10 @@
     {
         "merged": "com.singhealth.enhance.app-merged_res-53:/drawable-mdpi_ic_textsms.png.flat",
         "source": "com.singhealth.enhance.app-main-55:/drawable-mdpi/ic_textsms.png"
+    },
+    {
+        "merged": "com.singhealth.enhance.app-merged_res-53:/drawable_medical_upper_bg.xml.flat",
+        "source": "com.singhealth.enhance.app-main-55:/drawable/medical_upper_bg.xml"
     },
     {
         "merged": "com.singhealth.enhance.app-merged_res-53:/drawable-hdpi_ic_settings.png.flat",
@@ -242,6 +250,10 @@
     {
         "merged": "com.singhealth.enhance.app-merged_res-53:/drawable-anydpi_ic_keyboard_arrow_right.xml.flat",
         "source": "com.singhealth.enhance.app-main-55:/drawable-anydpi/ic_keyboard_arrow_right.xml"
+    },
+    {
+        "merged": "com.singhealth.enhance.app-merged_res-53:/drawable_medical_lower_bg.xml.flat",
+        "source": "com.singhealth.enhance.app-main-55:/drawable/medical_lower_bg.xml"
     },
     {
         "merged": "com.singhealth.enhance.app-merged_res-53:/drawable-mdpi_ic_person.png.flat",
@@ -372,6 +384,10 @@
         "source": "com.singhealth.enhance.app-main-55:/mipmap-mdpi/ic_launcher_foreground.webp"
     },
     {
+        "merged": "com.singhealth.enhance.app-merged_res-53:/drawable_lifestyle_upper_bg.xml.flat",
+        "source": "com.singhealth.enhance.app-main-55:/drawable/lifestyle_upper_bg.xml"
+    },
+    {
         "merged": "com.singhealth.enhance.app-merged_res-53:/drawable-anydpi_ic_remove_circle.xml.flat",
         "source": "com.singhealth.enhance.app-main-55:/drawable-anydpi/ic_remove_circle.xml"
     },
@@ -390,6 +406,10 @@
     {
         "merged": "com.singhealth.enhance.app-merged_res-53:/drawable-anydpi_ic_person_add.xml.flat",
         "source": "com.singhealth.enhance.app-main-55:/drawable-anydpi/ic_person_add.xml"
+    },
+    {
+        "merged": "com.singhealth.enhance.app-merged_res-53:/drawable_lifestyle_lower_bg.xml.flat",
+        "source": "com.singhealth.enhance.app-main-55:/drawable/lifestyle_lower_bg.xml"
     },
     {
         "merged": "com.singhealth.enhance.app-merged_res-53:/drawable_app_logo.png.flat",
@@ -538,6 +558,10 @@
     {
         "merged": "com.singhealth.enhance.app-merged_res-53:/drawable-xhdpi_ic_groups.png.flat",
         "source": "com.singhealth.enhance.app-main-55:/drawable-xhdpi/ic_groups.png"
+    },
+    {
+        "merged": "com.singhealth.enhance.app-merged_res-53:/drawable_diet_lower_bg.xml.flat",
+        "source": "com.singhealth.enhance.app-main-55:/drawable/diet_lower_bg.xml"
     },
     {
         "merged": "com.singhealth.enhance.app-merged_res-53:/drawable-mdpi_ic_home.png.flat",

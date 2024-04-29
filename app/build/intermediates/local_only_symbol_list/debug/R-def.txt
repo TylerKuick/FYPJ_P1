@@ -27,6 +27,8 @@ drawable chart2
 drawable chart3
 drawable chart4
 drawable chart5
+drawable diet_lower_bg
+drawable diet_upper_bg
 drawable excellent
 drawable good
 drawable ic_arrow_outward
@@ -52,6 +54,10 @@ drawable ic_save
 drawable ic_settings
 drawable ic_swap_horizontal_circle
 drawable ic_textsms
+drawable lifestyle_lower_bg
+drawable lifestyle_upper_bg
+drawable medical_lower_bg
+drawable medical_upper_bg
 drawable neutral
 drawable nyp_logo
 drawable poor

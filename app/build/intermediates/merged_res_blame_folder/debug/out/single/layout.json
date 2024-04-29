@@ -1,98 +1,94 @@
 [
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-mergeDebugResources-52:\\layout\\accordion_guide_items.xml",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-55:\\layout\\accordion_guide_items.xml"
+        "merged": "com.singhealth.enhance.app-mergeDebugResources-52:/layout/activity_settings.xml",
+        "source": "com.singhealth.enhance.app-main-55:/layout/activity_settings.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-mergeDebugResources-52:\\layout\\activity_login.xml",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-55:\\layout\\activity_login.xml"
+        "merged": "com.singhealth.enhance.app-mergeDebugResources-52:/layout/activity_about.xml",
+        "source": "com.singhealth.enhance.app-main-55:/layout/activity_about.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-mergeDebugResources-52:\\layout\\activity_verify_scan.xml",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-55:\\layout\\activity_verify_scan.xml"
+        "merged": "com.singhealth.enhance.app-mergeDebugResources-52:/layout/divider_old_new_record.xml",
+        "source": "com.singhealth.enhance.app-main-55:/layout/divider_old_new_record.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-mergeDebugResources-52:\\layout\\divider_old_new_record.xml",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-55:\\layout\\divider_old_new_record.xml"
+        "merged": "com.singhealth.enhance.app-mergeDebugResources-52:/layout/activity_splash_screen.xml",
+        "source": "com.singhealth.enhance.app-main-55:/layout/activity_splash_screen.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-mergeDebugResources-52:\\layout\\list_gender_item.xml",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-55:\\layout\\list_gender_item.xml"
+        "merged": "com.singhealth.enhance.app-mergeDebugResources-52:/layout/activity_profile.xml",
+        "source": "com.singhealth.enhance.app-main-55:/layout/activity_profile.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-mergeDebugResources-52:\\layout\\activity_terms_of_use.xml",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-55:\\layout\\activity_terms_of_use.xml"
+        "merged": "com.singhealth.enhance.app-mergeDebugResources-52:/layout/bottom_sheet_verify_scan.xml",
+        "source": "com.singhealth.enhance.app-main-55:/layout/bottom_sheet_verify_scan.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-mergeDebugResources-52:\\layout\\header_navigation_drawer.xml",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-55:\\layout\\header_navigation_drawer.xml"
+        "merged": "com.singhealth.enhance.app-mergeDebugResources-52:/layout/activity_privacy_statement.xml",
+        "source": "com.singhealth.enhance.app-main-55:/layout/activity_privacy_statement.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-mergeDebugResources-52:\\layout\\activity_history.xml",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-55:\\layout\\activity_history.xml"
+        "merged": "com.singhealth.enhance.app-mergeDebugResources-52:/layout/dashboard.xml",
+        "source": "com.singhealth.enhance.app-main-55:/layout/dashboard.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-mergeDebugResources-52:\\layout\\activity_privacy_statement.xml",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-55:\\layout\\activity_privacy_statement.xml"
+        "merged": "com.singhealth.enhance.app-mergeDebugResources-52:/layout/list_gender_item.xml",
+        "source": "com.singhealth.enhance.app-main-55:/layout/list_gender_item.xml"
+    },
+    {
+        "merged": "com.singhealth.enhance.app-mergeDebugResources-52:/layout/activity_main.xml",
+        "source": "com.singhealth.enhance.app-main-55:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.singhealth.enhance.app-mergeDebugResources-52:/layout/activity_login.xml",
+        "source": "com.singhealth.enhance.app-main-55:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.singhealth.enhance.app-mergeDebugResources-52:/layout/activity_user_guide.xml",
+        "source": "com.singhealth.enhance.app-main-55:/layout/activity_user_guide.xml"
+    },
+    {
+        "merged": "com.singhealth.enhance.app-mergeDebugResources-52:/layout/activity_authentication.xml",
+        "source": "com.singhealth.enhance.app-main-55:/layout/activity_authentication.xml"
+    },
+    {
+        "merged": "com.singhealth.enhance.app-mergeDebugResources-52:/layout/header_navigation_drawer.xml",
+        "source": "com.singhealth.enhance.app-main-55:/layout/header_navigation_drawer.xml"
+    },
+    {
+        "merged": "com.singhealth.enhance.app-mergeDebugResources-52:/layout/activity_registration.xml",
+        "source": "com.singhealth.enhance.app-main-55:/layout/activity_registration.xml"
+    },
+    {
+        "merged": "com.singhealth.enhance.app-mergeDebugResources-52:/layout/activity_verify_scan.xml",
+        "source": "com.singhealth.enhance.app-main-55:/layout/activity_verify_scan.xml"
+    },
+    {
+        "merged": "com.singhealth.enhance.app-mergeDebugResources-52:/layout/accordion_guide_items.xml",
+        "source": "com.singhealth.enhance.app-main-55:/layout/accordion_guide_items.xml"
+    },
+    {
+        "merged": "com.singhealth.enhance.app-mergeDebugResources-52:/layout/activity_history.xml",
+        "source": "com.singhealth.enhance.app-main-55:/layout/activity_history.xml"
+    },
+    {
+        "merged": "com.singhealth.enhance.app-mergeDebugResources-52:/layout/history_item.xml",
+        "source": "com.singhealth.enhance.app-main-55:/layout/history_item.xml"
+    },
+    {
+        "merged": "com.singhealth.enhance.app-mergeDebugResources-52:/layout/activity_scan.xml",
+        "source": "com.singhealth.enhance.app-main-55:/layout/activity_scan.xml"
     },
     {
         "merged": "com.singhealth.enhance.app-mergeDebugResources-52:/layout/activity_recommendation.xml",
         "source": "com.singhealth.enhance.app-main-55:/layout/activity_recommendation.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-mergeDebugResources-52:\\layout\\activity_authentication.xml",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-55:\\layout\\activity_authentication.xml"
+        "merged": "com.singhealth.enhance.app-mergeDebugResources-52:/layout/row_bp_record.xml",
+        "source": "com.singhealth.enhance.app-main-55:/layout/row_bp_record.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-mergeDebugResources-52:\\layout\\activity_user_guide.xml",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-55:\\layout\\activity_user_guide.xml"
-    },
-    {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-mergeDebugResources-52:\\layout\\row_bp_record.xml",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-55:\\layout\\row_bp_record.xml"
-    },
-    {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-mergeDebugResources-52:\\layout\\activity_scan.xml",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-55:\\layout\\activity_scan.xml"
-    },
-    {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-mergeDebugResources-52:\\layout\\bottom_sheet_verify_scan.xml",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-55:\\layout\\bottom_sheet_verify_scan.xml"
-    },
-    {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-mergeDebugResources-52:\\layout\\activity_registration.xml",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-55:\\layout\\activity_registration.xml"
-    },
-    {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-mergeDebugResources-52:\\layout\\dashboard.xml",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-55:\\layout\\dashboard.xml"
-    },
-    {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-mergeDebugResources-52:\\layout\\activity_recommendation.xml",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-55:\\layout\\activity_recommendation.xml"
-    },
-    {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-mergeDebugResources-52:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-55:\\layout\\activity_main.xml"
-    },
-    {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-mergeDebugResources-52:\\layout\\activity_splash_screen.xml",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-55:\\layout\\activity_splash_screen.xml"
-    },
-    {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-mergeDebugResources-52:\\layout\\activity_profile.xml",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-55:\\layout\\activity_profile.xml"
-    },
-    {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-mergeDebugResources-52:\\layout\\activity_about.xml",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-55:\\layout\\activity_about.xml"
-    },
-    {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-mergeDebugResources-52:\\layout\\activity_settings.xml",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-55:\\layout\\activity_settings.xml"
-    },
-    {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-mergeDebugResources-52:\\layout\\history_item.xml",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-55:\\layout\\history_item.xml"
+        "merged": "com.singhealth.enhance.app-mergeDebugResources-52:/layout/activity_terms_of_use.xml",
+        "source": "com.singhealth.enhance.app-main-55:/layout/activity_terms_of_use.xml"
     }
 ]
