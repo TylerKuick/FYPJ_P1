@@ -44,12 +44,24 @@
         "source": "com.singhealth.enhance.app-main-55:/drawable-xhdpi/ic_person_add.png"
     },
     {
+        "merged": "com.singhealth.enhance.app-merged_res-53:/drawable_very_poor.png.flat",
+        "source": "com.singhealth.enhance.app-main-55:/drawable/very_poor.png"
+    },
+    {
         "merged": "com.singhealth.enhance.app-merged_res-53:/drawable-xxhdpi_ic_error.png.flat",
         "source": "com.singhealth.enhance.app-main-55:/drawable-xxhdpi/ic_error.png"
     },
     {
+        "merged": "com.singhealth.enhance.app-merged_res-53:/drawable_poor.png.flat",
+        "source": "com.singhealth.enhance.app-main-55:/drawable/poor.png"
+    },
+    {
         "merged": "com.singhealth.enhance.app-merged_res-53:/drawable-anydpi_ic_camera_alt.xml.flat",
         "source": "com.singhealth.enhance.app-main-55:/drawable-anydpi/ic_camera_alt.xml"
+    },
+    {
+        "merged": "com.singhealth.enhance.app-merged_res-53:/drawable_excellent.png.flat",
+        "source": "com.singhealth.enhance.app-main-55:/drawable/excellent.png"
     },
     {
         "merged": "com.singhealth.enhance.app-merged_res-53:/drawable-mdpi_ic_help_center.png.flat",
@@ -86,6 +98,10 @@
     {
         "merged": "com.singhealth.enhance.app-merged_res-53:/drawable-xhdpi_ic_person_outline.png.flat",
         "source": "com.singhealth.enhance.app-main-55:/drawable-xhdpi/ic_person_outline.png"
+    },
+    {
+        "merged": "com.singhealth.enhance.app-merged_res-53:/drawable_good.png.flat",
+        "source": "com.singhealth.enhance.app-main-55:/drawable/good.png"
     },
     {
         "merged": "com.singhealth.enhance.app-merged_res-53:/drawable-hdpi_ic_help_center.png.flat",
@@ -138,6 +154,10 @@
     {
         "merged": "com.singhealth.enhance.app-merged_res-53:/drawable-mdpi_ic_camera_alt.png.flat",
         "source": "com.singhealth.enhance.app-main-55:/drawable-mdpi/ic_camera_alt.png"
+    },
+    {
+        "merged": "com.singhealth.enhance.app-merged_res-53:/drawable_neutral.png.flat",
+        "source": "com.singhealth.enhance.app-main-55:/drawable/neutral.png"
     },
     {
         "merged": "com.singhealth.enhance.app-merged_res-53:/drawable-mdpi_ic_swap_horizontal_circle.png.flat",

@@ -97,7 +97,6 @@
             android:configChanges="orientation|screenSize|keyboardHidden"
             android:exported="false"
             android:label="@string/history_title" />
-
         <!-- ocr -->
         <activity
             android:name="com.singhealth.enhance.activities.ocr.ScanActivity"
