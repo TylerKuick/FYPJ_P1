@@ -155,18 +155,18 @@ fun showRecommendation(bpStage: String) : ArrayList<String>{
             dietText= "- Lower sodium intake (< 3.6g / day)\n"
             lifestyleText = "- Increase physical activity (2.5 - 5 hours / week)\n" +
                 "- Maintain healthy weight (BMI < 22.9)\n" +
-                "- Sufficient sleep (>7 hours / night)\n"}
+                "- Need sufficient sleep (>7 hours / night)\n"}
 
         "Stage 1 Hypertension" -> {
-            dietText = "- Healthy diet\n" +
+            dietText = "-Have a healthy diet\n" +
                 "- Lower sodium intake (< 2g / day)\n" +
                 "- Limit caffeine\n\n"
             lifestyleText = "- Manage stress\n" +
                 "- Increase physical activity (2.5 - 5 hours / week)\n" +
                 "- Maintain healthy weight (BMI < 22.9)\n" +
                 "- Stop smoking and/or drinking\n" +
-                "- Sufficient sleep (>7 hours / night)\n\n"
-             medicalText = "- Checkup regularly\n"
+                "- Need sufficient sleep (>7 hours / night)\n\n"
+             medicalText = "-Go for checkup regularly\n"
         }
 
         "Stage 2 Hypertension" -> {
@@ -177,9 +177,9 @@ fun showRecommendation(bpStage: String) : ArrayList<String>{
                 "- Increase physical activity (2.5 - 5 hours / week)\n" +
                 "- Maintain healthy weight (BMI < 22.9)\n" +
                 "- Stop smoking and/or drinking\n" +
-                "- Sufficient sleep (>7 hours / night)\n"
+                "- Need sufficient sleep (>7 hours / night)\n"
             medicalText="- Take prescribed medications\n" +
-                "- Check up regularly\n"
+                "- Go for check up regularly\n"
         }
     }
     ouputList.add(dietText)
