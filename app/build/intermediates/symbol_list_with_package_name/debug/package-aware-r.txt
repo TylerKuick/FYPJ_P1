@@ -3240,6 +3240,7 @@ id SHOW_PROGRESS
 id SYM
 id TOP_END
 id TOP_START
+id WB
 id aboutAppRL
 id accelerate
 id accessibility_action_clickable_span
@@ -3424,8 +3425,6 @@ id device_fragment
 id device_info_text
 id diaBPTIET
 id dialog_button
-id diastolicChartTitle
-id diastolicLineChart
 id dietTV
 id dimensions
 id direct
@@ -3807,8 +3806,6 @@ id supportIV
 id supportScrollUp
 id swapValuesIV
 id sysBPTIET
-id syschartTitle
-id syslineChart
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans

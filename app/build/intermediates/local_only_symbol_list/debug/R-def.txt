@@ -65,6 +65,7 @@ drawable popup_background
 drawable ripple_settings_item
 drawable shape_settings_ic
 drawable very_poor
+id WB
 id aboutAppRL
 id accountIV
 id addRowBtn
@@ -93,8 +94,6 @@ id dateOfBirthTIET
 id dateOfBirthTIL
 id dateTV
 id diaBPTIET
-id diastolicChartTitle
-id diastolicLineChart
 id dietTV
 id discardBS
 id dobTV
@@ -159,8 +158,6 @@ id statusIV
 id supportIV
 id swapValuesIV
 id sysBPTIET
-id syschartTitle
-id syslineChart
 id userGuideRL
 id verifyCodeBtn
 id weightTIET

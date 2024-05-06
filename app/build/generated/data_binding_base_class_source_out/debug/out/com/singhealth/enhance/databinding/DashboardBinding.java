@@ -4,13 +4,12 @@ package com.singhealth.enhance.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.TextView;
+import android.webkit.WebView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
-import com.github.mikephil.charting.charts.LineChart;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationView;
 import com.singhealth.enhance.R;
@@ -23,13 +22,10 @@ public final class DashboardBinding implements ViewBinding {
   private final DrawerLayout rootView;
 
   @NonNull
+  public final WebView WB;
+
+  @NonNull
   public final BottomNavigationView bottomNavigationView;
-
-  @NonNull
-  public final TextView diastolicChartTitle;
-
-  @NonNull
-  public final LineChart diastolicLineChart;
 
   @NonNull
   public final DrawerLayout drawerLayout;
@@ -37,25 +33,14 @@ public final class DashboardBinding implements ViewBinding {
   @NonNull
   public final NavigationView navigationView;
 
-  @NonNull
-  public final TextView syschartTitle;
-
-  @NonNull
-  public final LineChart syslineChart;
-
-  private DashboardBinding(@NonNull DrawerLayout rootView,
-      @NonNull BottomNavigationView bottomNavigationView, @NonNull TextView diastolicChartTitle,
-      @NonNull LineChart diastolicLineChart, @NonNull DrawerLayout drawerLayout,
-      @NonNull NavigationView navigationView, @NonNull TextView syschartTitle,
-      @NonNull LineChart syslineChart) {
+  private DashboardBinding(@NonNull DrawerLayout rootView, @NonNull WebView WB,
+      @NonNull BottomNavigationView bottomNavigationView, @NonNull DrawerLayout drawerLayout,
+      @NonNull NavigationView navigationView) {
     this.rootView = rootView;
+    this.WB = WB;
     this.bottomNavigationView = bottomNavigationView;
-    this.diastolicChartTitle = diastolicChartTitle;
-    this.diastolicLineChart = diastolicLineChart;
     this.drawerLayout = drawerLayout;
     this.navigationView = navigationView;
-    this.syschartTitle = syschartTitle;
-    this.syslineChart = syslineChart;
   }
 
   @Override
@@ -85,21 +70,15 @@ public final class DashboardBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.WB;
+      WebView WB = ViewBindings.findChildViewById(rootView, id);
+      if (WB == null) {
+        break missingId;
+      }
+
       id = R.id.bottomNavigationView;
       BottomNavigationView bottomNavigationView = ViewBindings.findChildViewById(rootView, id);
       if (bottomNavigationView == null) {
-        break missingId;
-      }
-
-      id = R.id.diastolicChartTitle;
-      TextView diastolicChartTitle = ViewBindings.findChildViewById(rootView, id);
-      if (diastolicChartTitle == null) {
-        break missingId;
-      }
-
-      id = R.id.diastolicLineChart;
-      LineChart diastolicLineChart = ViewBindings.findChildViewById(rootView, id);
-      if (diastolicLineChart == null) {
         break missingId;
       }
 
@@ -111,21 +90,8 @@ public final class DashboardBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.syschartTitle;
-      TextView syschartTitle = ViewBindings.findChildViewById(rootView, id);
-      if (syschartTitle == null) {
-        break missingId;
-      }
-
-      id = R.id.syslineChart;
-      LineChart syslineChart = ViewBindings.findChildViewById(rootView, id);
-      if (syslineChart == null) {
-        break missingId;
-      }
-
-      return new DashboardBinding((DrawerLayout) rootView, bottomNavigationView,
-          diastolicChartTitle, diastolicLineChart, drawerLayout, navigationView, syschartTitle,
-          syslineChart);
+      return new DashboardBinding((DrawerLayout) rootView, WB, bottomNavigationView, drawerLayout,
+          navigationView);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

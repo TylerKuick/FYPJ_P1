@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.singhealth.enhance.app-mergeDebugResources-51:/values-v26/values-v26.xml",
+            "outputFile": "com.singhealth.enhance.app-mergeDebugResources-52:/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\tim\\.gradle\\caches\\transforms-3\\69078467c9b29da86b826fcfd20df95a\\transformed\\appcompat-1.6.1\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\Tyler\\.gradle\\caches\\transforms-3\\69078467c9b29da86b826fcfd20df95a\\transformed\\appcompat-1.6.1\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

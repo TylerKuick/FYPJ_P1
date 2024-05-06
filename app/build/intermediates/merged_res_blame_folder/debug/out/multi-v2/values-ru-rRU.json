@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.singhealth.enhance.app-mergeDebugResources-51:/values-ru-rRU/values-ru-rRU.xml",
+            "outputFile": "com.singhealth.enhance.app-mergeDebugResources-52:/values-ru-rRU/values-ru-rRU.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\tim\\.gradle\\caches\\transforms-3\\642df67af254186558f8d6a142d8e9fd\\transformed\\jetified-android-image-cropper-4.5.0\\res\\values-ru-rRU\\values-ru-rRU.xml",
+                    "source": "C:\\Users\\Tyler\\.gradle\\caches\\transforms-3\\642df67af254186558f8d6a142d8e9fd\\transformed\\jetified-android-image-cropper-4.5.0\\res\\values-ru-rRU\\values-ru-rRU.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",

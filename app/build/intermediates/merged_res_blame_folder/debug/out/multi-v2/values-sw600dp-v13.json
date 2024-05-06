@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.singhealth.enhance.app-mergeDebugResources-51:/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "com.singhealth.enhance.app-mergeDebugResources-52:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\tim\\.gradle\\caches\\transforms-3\\69078467c9b29da86b826fcfd20df95a\\transformed\\appcompat-1.6.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\Tyler\\.gradle\\caches\\transforms-3\\69078467c9b29da86b826fcfd20df95a\\transformed\\appcompat-1.6.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\tim\\.gradle\\caches\\transforms-3\\0f0e7148267ca135f177841a2bc1e4c9\\transformed\\material-1.10.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\Tyler\\.gradle\\caches\\transforms-3\\0f0e7148267ca135f177841a2bc1e4c9\\transformed\\material-1.10.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",

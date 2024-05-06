@@ -4,6 +4,7 @@ import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.view.MenuItem
+import android.webkit.WebView
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
@@ -176,12 +177,17 @@ class DashboardActivity : AppCompatActivity() {
                     println("Sorted History 1st" + sortedHistory[0])
                     println("Sorted History 1st SYS DATA" + sortedHistory[0].avgSysBP)
 
-
+                    /*
                     lineChart = findViewById(R.id.syslineChart)
                     setupLineChart()
                     diastolicLineChart = findViewById(R.id.diastolicLineChart)
                     setupDiastolicLineChart()
+                    */
 
+                    val myWebView : WebView = binding.WB
+                    // Loads URL but does not display in the app. (Neither in app or through WebView Tester)
+                    // Webhost web app and use that URL instead of localhost address.
+                    myWebView.loadUrl("")
                 }
             }
             .addOnFailureListener { e ->

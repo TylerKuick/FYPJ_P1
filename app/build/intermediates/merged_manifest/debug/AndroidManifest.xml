@@ -75,7 +75,8 @@
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.ENHANCe" >
+        android:theme="@style/Theme.ENHANCe"
+        android:usesCleartextTraffic="true" >
 
         <!-- authentication -->
         <activity

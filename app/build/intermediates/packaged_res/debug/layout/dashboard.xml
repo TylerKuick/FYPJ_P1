@@ -10,10 +10,16 @@
     <!-- P4B: Changed Constraint Layout to Linear Layout, set weight sum to 1 and adjusted graphs to fit onto smaller screens -->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:weightSum="1"
         android:orientation="vertical">
 
+        <WebView
+            android:id="@+id/WB"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <!--
         <TextView
             android:id="@+id/syschartTitle"
             android:layout_width="match_parent"
@@ -48,8 +54,9 @@
             app:layout_constraintTop_toBottomOf="@id/syslineChart"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
-
+        -->
         <!-- Diastolic Line Chart -->
+        <!--
         <com.github.mikephil.charting.charts.LineChart
             android:id="@+id/diastolicLineChart"
             android:layout_width="match_parent"
@@ -62,7 +69,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent" />
 
-
+        -->
 
 
         <com.google.android.material.bottomnavigation.BottomNavigationView

@@ -76,20 +76,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginBottom="6dp"
-            android:text="@string/control_status" />
-
-        <TextView
-            android:id="@+id/controlStatusTV"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="32dp"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="6dp"
             android:text="@string/recommendation" />
 
         <ImageView
@@ -148,6 +134,19 @@
             android:textSize="18sp"
             android:padding="10sp"
             android:layout_marginBottom="6dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:text="@string/control_status" />
+
+        <TextView
+            android:id="@+id/controlStatusTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 
