@@ -132,6 +132,7 @@ dependencies {
     // Dependency for password hashing
     implementation(group = "at.favre.lib", name = "bcrypt", version = "0.9.0")
 
-    // WebView Dependencies
+    // Dependency for WebView
     implementation("androidx.webkit:webkit:1.8.0")
+
 }

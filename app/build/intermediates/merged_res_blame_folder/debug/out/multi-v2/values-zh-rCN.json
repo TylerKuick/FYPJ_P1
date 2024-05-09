@@ -4,6 +4,23 @@
             "outputFile": "com.singhealth.enhance.app-mergeDebugResources-52:/values-zh-rCN/values-zh-rCN.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\Tyler\\.gradle\\caches\\transforms-3\\86d68e889dee5913a45baee2693bfea5\\transformed\\browser-1.8.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,138,230,331",
+                        "endColumns": "82,91,100,92",
+                        "endOffsets": "133,225,326,419"
+                    },
+                    "to": {
+                        "startLines": "59,63,64,65",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "5281,5555,5647,5748",
+                        "endColumns": "82,91,100,92",
+                        "endOffsets": "5359,5642,5743,5836"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Tyler\\.gradle\\caches\\transforms-3\\d3338ff8d476fab9b2c30ec8bdc71dd6\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-zh-rCN\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -35,23 +52,6 @@
                         "startOffsets": "297,392,487,587,669,766,872,949,1024,1115,1208,1305,1401,1495,1588,1683,1775,1866,1957,2035,2131,2226,2321,2418,2514,2612,2760,10362",
                         "endColumns": "94,94,99,81,96,105,76,74,90,92,96,95,93,92,94,91,90,90,77,95,94,94,96,95,97,147,93,78",
                         "endOffsets": "387,482,582,664,761,867,944,1019,1110,1203,1300,1396,1490,1583,1678,1770,1861,1952,2030,2126,2221,2316,2413,2509,2607,2755,2849,10436"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Tyler\\.gradle\\caches\\transforms-3\\0282dddc1b1de6c7d2603070da76f953\\transformed\\browser-1.4.0\\res\\values-zh-rCN\\values-zh-rCN.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,138,230,331",
-                        "endColumns": "82,91,100,92",
-                        "endOffsets": "133,225,326,419"
-                    },
-                    "to": {
-                        "startLines": "59,63,64,65",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "5281,5555,5647,5748",
-                        "endColumns": "82,91,100,92",
-                        "endOffsets": "5359,5642,5743,5836"
                     }
                 },
                 {

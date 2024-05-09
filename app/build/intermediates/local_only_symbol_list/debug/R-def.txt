@@ -146,6 +146,7 @@ id profileLL
 id progressBar
 id recyclerView
 id registerBtn
+id reloadBtn
 id removeRowIV
 id rescanBS
 id resendCodeTV

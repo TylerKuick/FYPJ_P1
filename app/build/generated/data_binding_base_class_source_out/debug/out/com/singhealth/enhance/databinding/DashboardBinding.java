@@ -5,6 +5,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.webkit.WebView;
+import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -33,14 +34,18 @@ public final class DashboardBinding implements ViewBinding {
   @NonNull
   public final NavigationView navigationView;
 
+  @NonNull
+  public final Button reloadBtn;
+
   private DashboardBinding(@NonNull DrawerLayout rootView, @NonNull WebView WB,
       @NonNull BottomNavigationView bottomNavigationView, @NonNull DrawerLayout drawerLayout,
-      @NonNull NavigationView navigationView) {
+      @NonNull NavigationView navigationView, @NonNull Button reloadBtn) {
     this.rootView = rootView;
     this.WB = WB;
     this.bottomNavigationView = bottomNavigationView;
     this.drawerLayout = drawerLayout;
     this.navigationView = navigationView;
+    this.reloadBtn = reloadBtn;
   }
 
   @Override
@@ -90,8 +95,14 @@ public final class DashboardBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.reloadBtn;
+      Button reloadBtn = ViewBindings.findChildViewById(rootView, id);
+      if (reloadBtn == null) {
+        break missingId;
+      }
+
       return new DashboardBinding((DrawerLayout) rootView, WB, bottomNavigationView, drawerLayout,
-          navigationView);
+          navigationView, reloadBtn);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

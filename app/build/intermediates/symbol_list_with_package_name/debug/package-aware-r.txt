@@ -3719,6 +3719,7 @@ id rectangleVerticalOnly
 id rectangles
 id recyclerView
 id registerBtn
+id reloadBtn
 id removeRowIV
 id report_drawn
 id rescanBS

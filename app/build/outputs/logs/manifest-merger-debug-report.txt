@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:2:1-158:12
-INJECTED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:2:1-158:12
-INJECTED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:2:1-158:12
-INJECTED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:2:1-158:12
+ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:2:1-159:12
+INJECTED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:2:1-159:12
+INJECTED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:2:1-159:12
+INJECTED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:2:1-159:12
 MERGED from [com.vanniktech:android-image-cropper:4.5.0] C:\Users\Tyler\.gradle\caches\transforms-3\642df67af254186558f8d6a142d8e9fd\transformed\jetified-android-image-cropper-4.5.0\AndroidManifest.xml:2:1-38:12
 MERGED from [androidx.databinding:viewbinding:8.1.1] C:\Users\Tyler\.gradle\caches\transforms-3\157a5b59024d1aec7fa6e8aa79c69437\transformed\jetified-viewbinding-8.1.1\AndroidManifest.xml:2:1-7:12
 MERGED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\Tyler\.gradle\caches\transforms-3\7196e6ba2eabdc443dd38a0bdbb34a61\transformed\jetified-firebase-storage-ktx-20.3.0\AndroidManifest.xml:2:1-18:12
@@ -86,7 +86,7 @@ MERGED from [androidx.privacysandbox.ads:ads-adservices-java:1.0.0-beta05] C:\Us
 MERGED from [androidx.privacysandbox.ads:ads-adservices:1.0.0-beta05] C:\Users\Tyler\.gradle\caches\transforms-3\1fbf0e81d394f566d5d60ac5d201c09b\transformed\jetified-ads-adservices-1.0.0-beta05\AndroidManifest.xml:17:1-28:12
 MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Tyler\.gradle\caches\transforms-3\005b2ade9ead3602c68f1a16e6f8e2e1\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.webkit:webkit:1.8.0] C:\Users\Tyler\.gradle\caches\transforms-3\000db9d459ba3cd95af44f239805ffe8\transformed\webkit-1.8.0\AndroidManifest.xml:2:1-7:12
-MERGED from [androidx.browser:browser:1.4.0] C:\Users\Tyler\.gradle\caches\transforms-3\0282dddc1b1de6c7d2603070da76f953\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.8.0] C:\Users\Tyler\.gradle\caches\transforms-3\86d68e889dee5913a45baee2693bfea5\transformed\browser-1.8.0\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Tyler\.gradle\caches\transforms-3\1d9ecf6a4fe3b0f3edefdafbf5b269e9\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Tyler\.gradle\caches\transforms-3\9f7ad2e234b823593458809070bd4339\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Tyler\.gradle\caches\transforms-3\e83df034b19ede79a2f2e0c39a5c70cb\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -114,13 +114,13 @@ MERGED from [androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\Tyler\.g
 MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Tyler\.gradle\caches\transforms-3\47e30bec09617e71dd8a7527c5539995\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Tyler\.gradle\caches\transforms-3\1c64a4f539d1cafa23a09c3aaaf0ae2a\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Tyler\.gradle\caches\transforms-3\431a61bf668322ab56f23d9de896b3fa\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Tyler\.gradle\caches\transforms-3\97e99494cfac4a0917d43c86b1fd229d\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\Tyler\.gradle\caches\transforms-3\b6b84554fa8967ff873c1b4aed6d3ff1\transformed\jetified-firebase-components-17.1.5\AndroidManifest.xml:15:1-20:12
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Tyler\.gradle\caches\transforms-3\ea8b3e335156134e4b95db22cbf3b1aa\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Tyler\.gradle\caches\transforms-3\97e99494cfac4a0917d43c86b1fd229d\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Tyler\.gradle\caches\transforms-3\18b65cef19668e4208031e0337a561cd\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Tyler\.gradle\caches\transforms-3\144dcf61efe6378bc94e8e97eee59ab9\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.print:print:1.0.0] C:\Users\Tyler\.gradle\caches\transforms-3\027eabdae25773eee447a384e8043aa2\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.annotation:annotation-experimental:1.3.1] C:\Users\Tyler\.gradle\caches\transforms-3\db897f80f1fd78305a7699a7ebf8248f\transformed\jetified-annotation-experimental-1.3.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Tyler\.gradle\caches\transforms-3\8d16abc1f5d6eba4e972fb37cfea5903\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
 MERGED from [com.amplifyframework:annotations:2.14.6] C:\Users\Tyler\.gradle\caches\transforms-3\1dd30c2e40992dd6a74f6b30072335c5\transformed\jetified-annotations-2.14.6\AndroidManifest.xml:16:1-23:12
 MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\Tyler\.gradle\caches\transforms-3\d2f40fa8bf2c2d0e2f539b953c4099e8\transformed\jetified-grpc-android-1.52.1\AndroidManifest.xml:2:1-11:12
 MERGED from [com.amplifyframework:common-core:2.14.6] C:\Users\Tyler\.gradle\caches\transforms-3\8975d2a40e627fe8587833bf84b3fecf\transformed\jetified-common-core-2.14.6\AndroidManifest.xml:16:1-25:12
@@ -208,8 +208,8 @@ ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\Android
 	android:name
 		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:22:22-78
 application
-ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:24:5-157:19
-INJECTED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:24:5-157:19
+ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:24:5-158:19
+INJECTED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:24:5-158:19
 MERGED from [com.vanniktech:android-image-cropper:4.5.0] C:\Users\Tyler\.gradle\caches\transforms-3\642df67af254186558f8d6a142d8e9fd\transformed\jetified-android-image-cropper-4.5.0\AndroidManifest.xml:22:5-36:19
 MERGED from [com.vanniktech:android-image-cropper:4.5.0] C:\Users\Tyler\.gradle\caches\transforms-3\642df67af254186558f8d6a142d8e9fd\transformed\jetified-android-image-cropper-4.5.0\AndroidManifest.xml:22:5-36:19
 MERGED from [com.google.firebase:firebase-storage-ktx:20.3.0] C:\Users\Tyler\.gradle\caches\transforms-3\7196e6ba2eabdc443dd38a0bdbb34a61\transformed\jetified-firebase-storage-ktx-20.3.0\AndroidManifest.xml:8:5-16:19
@@ -303,239 +303,241 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Ty
 	android:extractNativeLibs
 		INJECTED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml
 	android:roundIcon
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:31:9-54
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:32:9-54
 	android:icon
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:29:9-43
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:30:9-43
 	android:screenOrientation
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:32:9-45
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:33:9-45
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] C:\Users\Tyler\.gradle\caches\transforms-3\fa5b8c27d3a67ea41b19585cddd623f5\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:33:9-35
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:34:9-35
 	android:label
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:30:9-41
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:31:9-41
+	android:hardwareAccelerated
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:29:9-43
 	android:fullBackupContent
 		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:27:9-54
 	tools:targetApi
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:35:9-29
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:36:9-29
 	android:allowBackup
 		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:25:9-36
 	android:theme
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:34:9-45
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:35:9-45
 	android:dataExtractionRules
 		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:26:9-65
 	android:usesCleartextTraffic
 		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:28:9-44
 	android:name
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:36:9-37
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:37:9-37
 activity#com.singhealth.enhance.activities.authentication.AuthenticationActivity
-ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:39:9-44:58
+ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:40:9-45:58
 	android:windowSoftInputMode
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:44:13-55
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:45:13-55
 	android:exported
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:42:13-37
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:43:13-37
 	android:configChanges
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:41:13-74
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:42:13-74
 	android:theme
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:43:13-61
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:44:13-61
 	android:name
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:40:13-77
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:41:13-77
 activity#com.singhealth.enhance.activities.authentication.LoginActivity
-ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:46:9-51:58
+ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:47:9-52:58
 	android:windowSoftInputMode
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:51:13-55
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:52:13-55
 	android:exported
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:49:13-37
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:50:13-37
 	android:configChanges
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:48:13-74
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:49:13-74
 	android:theme
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:50:13-61
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:51:13-61
 	android:name
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:47:13-68
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:48:13-68
 activity#com.singhealth.enhance.activities.history.HistoryActivity
-ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:54:9-58:53
+ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:55:9-59:53
 	android:label
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:58:13-50
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:59:13-50
 	android:exported
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:57:13-37
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:58:13-37
 	android:configChanges
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:56:13-74
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:57:13-74
 	android:name
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:55:13-63
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:56:13-63
 activity#com.singhealth.enhance.activities.ocr.ScanActivity
-ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:60:9-68:20
+ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:61:9-69:20
 	android:label
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:64:13-47
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:65:13-47
 	android:exported
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:63:13-37
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:64:13-37
 	android:configChanges
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:62:13-59
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:63:13-59
 	android:name
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:61:13-56
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:62:13-56
 meta-data#com.google.firebase.ml.vision.DEPENDENCIES
-ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:65:13-67:39
+ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:66:13-68:39
 	android:value
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:67:17-36
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:68:17-36
 	android:name
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:66:17-74
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:67:17-74
 activity#com.canhub.cropper.CropImageActivity
-ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:69:9-71:59
+ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:70:9-72:59
 MERGED from [com.vanniktech:android-image-cropper:4.5.0] C:\Users\Tyler\.gradle\caches\transforms-3\642df67af254186558f8d6a142d8e9fd\transformed\jetified-android-image-cropper-4.5.0\AndroidManifest.xml:33:9-35:39
 MERGED from [com.vanniktech:android-image-cropper:4.5.0] C:\Users\Tyler\.gradle\caches\transforms-3\642df67af254186558f8d6a142d8e9fd\transformed\jetified-android-image-cropper-4.5.0\AndroidManifest.xml:33:9-35:39
 	android:exported
 		ADDED from [com.vanniktech:android-image-cropper:4.5.0] C:\Users\Tyler\.gradle\caches\transforms-3\642df67af254186558f8d6a142d8e9fd\transformed\jetified-android-image-cropper-4.5.0\AndroidManifest.xml:35:13-36
 	android:theme
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:71:13-56
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:72:13-56
 	android:name
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:70:13-64
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:71:13-64
 activity#com.singhealth.enhance.activities.ocr.VerifyScanActivity
-ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:72:9-78:58
+ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:73:9-79:58
 	android:parentActivityName
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:77:13-70
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:78:13-70
 	android:label
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:76:13-48
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:77:13-48
 	android:windowSoftInputMode
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:78:13-55
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:79:13-55
 	android:exported
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:75:13-37
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:76:13-37
 	android:configChanges
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:74:13-74
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:75:13-74
 	android:name
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:73:13-62
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:74:13-62
 activity#com.singhealth.enhance.activities.patient.ProfileActivity
-ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:81:9-85:53
+ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:82:9-86:53
 	android:label
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:85:13-50
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:86:13-50
 	android:exported
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:84:13-37
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:85:13-37
 	android:configChanges
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:83:13-74
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:84:13-74
 	android:name
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:82:13-63
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:83:13-63
 activity#com.singhealth.enhance.activities.patient.RegistrationActivity
-ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:86:9-91:58
+ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:87:9-92:58
 	android:label
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:90:13-63
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:91:13-63
 	android:windowSoftInputMode
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:91:13-55
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:92:13-55
 	android:exported
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:89:13-37
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:90:13-37
 	android:configChanges
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:88:13-74
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:89:13-74
 	android:name
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:87:13-68
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:88:13-68
 activity#com.singhealth.enhance.activities.result.RecommendationActivity
-ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:94:9-99:80
+ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:95:9-100:80
 	android:parentActivityName
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:99:13-77
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:100:13-77
 	android:label
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:98:13-55
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:99:13-55
 	android:exported
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:97:13-37
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:98:13-37
 	android:configChanges
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:96:13-74
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:97:13-74
 	android:name
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:95:13-69
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:96:13-69
 activity#com.singhealth.enhance.activities.settings.AboutAppActivity
-ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:102:9-107:82
+ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:103:9-108:82
 	android:parentActivityName
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:107:13-79
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:108:13-79
 	android:label
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:106:13-56
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:107:13-56
 	android:exported
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:105:13-37
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:106:13-37
 	android:configChanges
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:104:13-74
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:105:13-74
 	android:name
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:103:13-65
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:104:13-65
 activity#com.singhealth.enhance.activities.settings.guide.UserGuideActivity
-ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:108:9-113:82
+ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:109:9-114:82
 	android:parentActivityName
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:113:13-79
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:114:13-79
 	android:label
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:112:13-53
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:113:13-53
 	android:exported
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:111:13-37
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:112:13-37
 	android:configChanges
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:110:13-74
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:111:13-74
 	android:name
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:109:13-72
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:110:13-72
 activity#com.singhealth.enhance.activities.settings.PrivacyStatementActivity
-ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:114:9-119:82
+ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:115:9-120:82
 	android:parentActivityName
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:119:13-79
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:120:13-79
 	android:label
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:118:13-60
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:119:13-60
 	android:exported
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:117:13-37
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:118:13-37
 	android:configChanges
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:116:13-74
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:117:13-74
 	android:name
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:115:13-73
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:116:13-73
 activity#com.singhealth.enhance.activities.settings.SettingsActivity
-ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:120:9-124:54
+ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:121:9-125:54
 	android:label
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:124:13-51
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:125:13-51
 	android:exported
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:123:13-37
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:124:13-37
 	android:configChanges
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:122:13-74
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:123:13-74
 	android:name
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:121:13-65
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:122:13-65
 activity#com.singhealth.enhance.activities.settings.TermsOfUseActivity
-ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:125:9-130:82
+ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:126:9-131:82
 	android:parentActivityName
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:130:13-79
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:131:13-79
 	android:label
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:129:13-55
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:130:13-55
 	android:exported
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:128:13-37
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:129:13-37
 	android:configChanges
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:127:13-74
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:128:13-74
 	android:name
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:126:13-67
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:127:13-67
 activity#com.singhealth.enhance.activities.MainActivity
-ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:133:9-138:58
+ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:134:9-139:58
 	android:label
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:137:13-47
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:138:13-47
 	android:windowSoftInputMode
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:138:13-55
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:139:13-55
 	android:exported
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:136:13-36
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:137:13-36
 	android:configChanges
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:135:13-74
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:136:13-74
 	android:name
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:134:13-52
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:135:13-52
 activity#com.singhealth.enhance.activities.SplashScreenActivity
-ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:139:9-148:20
+ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:140:9-149:20
 	android:exported
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:142:13-36
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:143:13-36
 	android:configChanges
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:141:13-74
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:142:13-74
 	android:theme
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:143:13-61
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:144:13-61
 	android:name
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:140:13-60
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:141:13-60
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:144:13-147:29
+ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:145:13-148:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:145:17-69
+ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:146:17-69
 	android:name
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:145:25-66
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:146:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:146:17-77
+ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:147:17-77
 	android:name
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:146:27-74
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:147:27-74
 activity#com.singhealth.enhance.activities.DashboardActivity
-ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:149:9-155:20
+ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:150:9-156:20
 	android:label
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:153:13-38
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:154:13-38
 	android:exported
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:152:13-37
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:153:13-37
 	android:configChanges
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:151:13-74
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:152:13-74
 	android:name
-		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:150:13-57
+		ADDED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml:151:13-57
 uses-sdk
 INJECTED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Tyler\OneDrive\Documents\GitHub\FYPJ_P1\app\src\main\AndroidManifest.xml
@@ -704,8 +706,8 @@ MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Tyler\.gradle\caches\transfo
 MERGED from [androidx.core:core-ktx:1.9.0] C:\Users\Tyler\.gradle\caches\transforms-3\005b2ade9ead3602c68f1a16e6f8e2e1\transformed\jetified-core-ktx-1.9.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.webkit:webkit:1.8.0] C:\Users\Tyler\.gradle\caches\transforms-3\000db9d459ba3cd95af44f239805ffe8\transformed\webkit-1.8.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.webkit:webkit:1.8.0] C:\Users\Tyler\.gradle\caches\transforms-3\000db9d459ba3cd95af44f239805ffe8\transformed\webkit-1.8.0\AndroidManifest.xml:5:5-44
-MERGED from [androidx.browser:browser:1.4.0] C:\Users\Tyler\.gradle\caches\transforms-3\0282dddc1b1de6c7d2603070da76f953\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
-MERGED from [androidx.browser:browser:1.4.0] C:\Users\Tyler\.gradle\caches\transforms-3\0282dddc1b1de6c7d2603070da76f953\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.8.0] C:\Users\Tyler\.gradle\caches\transforms-3\86d68e889dee5913a45baee2693bfea5\transformed\browser-1.8.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.browser:browser:1.8.0] C:\Users\Tyler\.gradle\caches\transforms-3\86d68e889dee5913a45baee2693bfea5\transformed\browser-1.8.0\AndroidManifest.xml:5:5-44
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Tyler\.gradle\caches\transforms-3\1d9ecf6a4fe3b0f3edefdafbf5b269e9\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\Tyler\.gradle\caches\transforms-3\1d9ecf6a4fe3b0f3edefdafbf5b269e9\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\Tyler\.gradle\caches\transforms-3\9f7ad2e234b823593458809070bd4339\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
@@ -760,20 +762,20 @@ MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Tyler\.gradle\caches\trans
 MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Tyler\.gradle\caches\transforms-3\1c64a4f539d1cafa23a09c3aaaf0ae2a\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Tyler\.gradle\caches\transforms-3\431a61bf668322ab56f23d9de896b3fa\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Tyler\.gradle\caches\transforms-3\431a61bf668322ab56f23d9de896b3fa\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Tyler\.gradle\caches\transforms-3\97e99494cfac4a0917d43c86b1fd229d\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Tyler\.gradle\caches\transforms-3\97e99494cfac4a0917d43c86b1fd229d\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\Tyler\.gradle\caches\transforms-3\b6b84554fa8967ff873c1b4aed6d3ff1\transformed\jetified-firebase-components-17.1.5\AndroidManifest.xml:18:5-44
 MERGED from [com.google.firebase:firebase-components:17.1.5] C:\Users\Tyler\.gradle\caches\transforms-3\b6b84554fa8967ff873c1b4aed6d3ff1\transformed\jetified-firebase-components-17.1.5\AndroidManifest.xml:18:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Tyler\.gradle\caches\transforms-3\ea8b3e335156134e4b95db22cbf3b1aa\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Users\Tyler\.gradle\caches\transforms-3\ea8b3e335156134e4b95db22cbf3b1aa\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Tyler\.gradle\caches\transforms-3\97e99494cfac4a0917d43c86b1fd229d\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Tyler\.gradle\caches\transforms-3\97e99494cfac4a0917d43c86b1fd229d\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Tyler\.gradle\caches\transforms-3\18b65cef19668e4208031e0337a561cd\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\Tyler\.gradle\caches\transforms-3\18b65cef19668e4208031e0337a561cd\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Tyler\.gradle\caches\transforms-3\144dcf61efe6378bc94e8e97eee59ab9\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\Tyler\.gradle\caches\transforms-3\144dcf61efe6378bc94e8e97eee59ab9\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\Tyler\.gradle\caches\transforms-3\027eabdae25773eee447a384e8043aa2\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
 MERGED from [androidx.print:print:1.0.0] C:\Users\Tyler\.gradle\caches\transforms-3\027eabdae25773eee447a384e8043aa2\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.1] C:\Users\Tyler\.gradle\caches\transforms-3\db897f80f1fd78305a7699a7ebf8248f\transformed\jetified-annotation-experimental-1.3.1\AndroidManifest.xml:20:5-44
-MERGED from [androidx.annotation:annotation-experimental:1.3.1] C:\Users\Tyler\.gradle\caches\transforms-3\db897f80f1fd78305a7699a7ebf8248f\transformed\jetified-annotation-experimental-1.3.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Tyler\.gradle\caches\transforms-3\8d16abc1f5d6eba4e972fb37cfea5903\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Users\Tyler\.gradle\caches\transforms-3\8d16abc1f5d6eba4e972fb37cfea5903\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
 MERGED from [com.amplifyframework:annotations:2.14.6] C:\Users\Tyler\.gradle\caches\transforms-3\1dd30c2e40992dd6a74f6b30072335c5\transformed\jetified-annotations-2.14.6\AndroidManifest.xml:19:5-21:41
 MERGED from [com.amplifyframework:annotations:2.14.6] C:\Users\Tyler\.gradle\caches\transforms-3\1dd30c2e40992dd6a74f6b30072335c5\transformed\jetified-annotations-2.14.6\AndroidManifest.xml:19:5-21:41
 MERGED from [io.grpc:grpc-android:1.52.1] C:\Users\Tyler\.gradle\caches\transforms-3\d2f40fa8bf2c2d0e2f539b953c4099e8\transformed\jetified-grpc-android-1.52.1\AndroidManifest.xml:5:5-7:41

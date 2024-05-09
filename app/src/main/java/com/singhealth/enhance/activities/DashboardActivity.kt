@@ -4,7 +4,11 @@ import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
 import android.view.MenuItem
+import android.view.View
+import android.webkit.WebChromeClient
+import android.webkit.WebSettings
 import android.webkit.WebView
+import android.webkit.WebViewClient
 import android.widget.Toast
 import androidx.appcompat.app.ActionBarDrawerToggle
 import androidx.appcompat.app.AppCompatActivity
@@ -124,6 +128,12 @@ class DashboardActivity : AppCompatActivity() {
                 }
             }
         }
+
+        // Reload WebView
+        binding.reloadBtn.setOnClickListener(View.OnClickListener {
+            binding.WB.reload()
+        })
+
         // Check if patient information exist in session
         val patientSharedPreferences = SecureSharedPreferences.getSharedPreferences(applicationContext)
         if (patientSharedPreferences.getString("patientID", null).isNullOrEmpty()) {
@@ -141,7 +151,7 @@ class DashboardActivity : AppCompatActivity() {
         db.collection("patients").document(patientID).collection("visits").get()
             .addOnSuccessListener { documents ->
                 if (documents.isEmpty) {
-
+                    println("Empty Collection: 'visits'")
                 } else {
 
 
@@ -184,10 +194,18 @@ class DashboardActivity : AppCompatActivity() {
                     setupDiastolicLineChart()
                     */
 
+                    // WebView (Does not work in emulator, but works on physical device)
                     val myWebView : WebView = binding.WB
-                    // Loads URL but does not display in the app. (Neither in app or through WebView Tester)
-                    // Webhost web app and use that URL instead of localhost address.
-                    myWebView.loadUrl("")
+                    myWebView.webViewClient = WebViewClient()
+                    myWebView.webChromeClient = WebChromeClient()
+                    myWebView.settings.javaScriptEnabled = true
+                    myWebView.settings.allowContentAccess = true
+                    myWebView.settings.domStorageEnabled = true
+                    myWebView.settings.loadsImagesAutomatically = true
+                    myWebView.settings.mixedContentMode = WebSettings.MIXED_CONTENT_ALWAYS_ALLOW
+                    myWebView.settings.setSupportMultipleWindows(true)
+                    myWebView.loadUrl("https://enhance-bdc3f.web.app")
+
                 }
             }
             .addOnFailureListener { e ->
