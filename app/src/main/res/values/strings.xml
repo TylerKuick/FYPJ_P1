@@ -42,4 +42,5 @@
     <string name="control_status">~ Control Status:</string>
     <string name="bpDivider">/</string>
     <string name="average_home_bp">~ Average Home BP:</string>
+    <string name="reload">Reload</string>
 </resources>
