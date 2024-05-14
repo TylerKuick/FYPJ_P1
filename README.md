@@ -1,5 +1,9 @@
 FYPJ P1
 
+Front-End is hosted on Firebase with the given URL: https://enhance-bdc3f.web.app
+
+Project Console: https://console.firebase.google.com/project/enhance-bdc3f/overview
+
 Main Changes made to ENHANCe in P1: 
 1. Updated Control Status and Recommendation functions 
 2. Added diagnosePatient function to display different BP Stages [Added to ProfileActivity, RecommendationActivity, HistoryActivity]
