@@ -19,3 +19,4 @@ New Services used in P1:
 Potential Improvements for FYPJ P2: 
 1. Refine Control Status: Current function takes the 6 most recent visits/scans to determine the patient's control status. Can be configured to use a 3-months timeframe to determine control status (Take the average BP from the last 3 months and compare it to the "Poor Control Status Threshold" - 140/90 for >18 yrs old, or 150/90 for >60 yrs old
 2. Analytics Dashboard: Modify or add new visualisations that could be useful for doctor's reference (Current visualisations included: Average Sys and Dia BP values, Chart of the Average Sys and Dia BP values over time)
+3. Complete FHIR Integration: With interoperability being an issue in the medical field, we thought that ENHANCe could operate with the FHIR Standard in mind. FHIR Standard - Normalises the data structure of medical data foe easier communication with other medical facilities. 
