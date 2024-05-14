@@ -15,6 +15,10 @@ New Services used in P1:
 
 **Note:** Currently, web app is configured for static pages only and only supports redirects to other pages. For more functions or to serve dynamic content, visit https://firebase.google.com/docs/hosting/functions
 
+**Looker Studio Report:**
+* Looker Report is not filtered by default. All scans from every patient is presented in the visualisations. Hence, to filter the report, patient document id is included within the URL when the user taps on the dashboard icon in the ENHANCe app.
+* On the front-end of the web app, the URL and its parameters (patient_doc_id) is extracted. The parameters are then included at the end of the Looker Studio Embed link to filter the report to only show values with the corresponding patient document id.
+* To do the above, a "Custom BigQuery Query" is used as the data source. For the specific query statement, refer to the "Firebase Hosting for Web App" Github link above. 
 
 Potential Improvements for FYPJ P2: 
 1. Refine Control Status: Current function takes the 6 most recent visits/scans to determine the patient's control status. Can be configured to use a 3-months timeframe to determine control status (Take the average BP from the last 3 months and compare it to the "Poor Control Status Threshold" - 140/90 for >18 yrs old, or 150/90 for >60 yrs old
