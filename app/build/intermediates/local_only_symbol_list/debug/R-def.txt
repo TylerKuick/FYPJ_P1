@@ -222,6 +222,7 @@ string privacy_statement_title
 string profile_title
 string project_id
 string recommendation
+string reload
 string report_vulnerability_title
 string scan_title
 string section_account_title

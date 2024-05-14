@@ -1,750 +1,746 @@
 [
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xxhdpi_ic_groups.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xxhdpi\\ic_groups.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xhdpi_ic_person.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xhdpi/ic_person.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\layout_activity_settings.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\layout\\activity_settings.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xxhdpi_ic_edit_calendar.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xxhdpi/ic_edit_calendar.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\mipmap-hdpi\\ic_launcher.webp"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-anydpi_ic_edit_calendar.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-anydpi/ic_edit_calendar.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-anydpi_ic_camera_alt.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-anydpi\\ic_camera_alt.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xhdpi_ic_swap_horizontal_circle.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xhdpi/ic_swap_horizontal_circle.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\layout_activity_login.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\layout\\activity_login.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-mdpi_ic_textsms.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-mdpi/ic_textsms.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-anydpi_ic_history.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-anydpi\\ic_history.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/layout_activity_splash_screen.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/layout/activity_splash_screen.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-anydpi_ic_save.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-anydpi\\ic_save.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable_neutral.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable/neutral.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-mdpi_ic_delete.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-mdpi\\ic_delete.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/layout_activity_scan.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/layout/activity_scan.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-hdpi_ic_settings.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-hdpi\\ic_settings.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/layout_activity_main.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/layout/activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable_medical_upper_bg.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable\\medical_upper_bg.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-anydpi_ic_home.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-anydpi/ic_home.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xhdpi_ic_groups.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xhdpi\\ic_groups.png"
-    },
-    {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable_chart3.jpg.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable\\chart3.jpg"
-    },
-    {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xxhdpi_ic_person_outline.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xxhdpi\\ic_person_outline.png"
-    },
-    {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\layout_activity_privacy_statement.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\layout\\activity_privacy_statement.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable_medical_lower_bg.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable/medical_lower_bg.xml"
     },
     {
         "merged": "com.singhealth.enhance.app-merged_res-54:/layout_dashboard.xml.flat",
         "source": "com.singhealth.enhance.app-main-56:/layout/dashboard.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.singhealth.enhance.app-main-56:/mipmap-xxhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-mdpi_ic_logout.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-mdpi\\ic_logout.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable_chart2.jpg.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable/chart2.jpg"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\mipmap-xhdpi\\ic_launcher_round.webp"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-anydpi_ic_history.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-anydpi/ic_history.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xhdpi_ic_home.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xhdpi\\ic_home.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xhdpi_ic_help_center.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xhdpi/ic_help_center.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\mipmap-anydpi-v26\\ic_launcher.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-anydpi_ic_error.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-anydpi/ic_error.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\layout_history_item.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\layout\\history_item.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-anydpi_ic_person.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-anydpi/ic_person.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-hdpi_ic_repeat.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-hdpi\\ic_repeat.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-hdpi_ic_keyboard_arrow_right.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-hdpi/ic_keyboard_arrow_right.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-anydpi_ic_file_upload.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-anydpi\\ic_file_upload.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/mipmap-hdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.singhealth.enhance.app-main-56:/mipmap-hdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-hdpi_ic_edit_calendar.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-hdpi\\ic_edit_calendar.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-hdpi_ic_textsms.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-hdpi/ic_textsms.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-anydpi_ic_groups.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-anydpi\\ic_groups.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xhdpi_ic_textsms.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xhdpi/ic_textsms.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xxhdpi_ic_person.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xxhdpi\\ic_person.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-hdpi_ic_settings.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-hdpi/ic_settings.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\xml_backup_rules.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\xml\\backup_rules.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-anydpi_ic_repeat.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-anydpi/ic_repeat.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable_lifestyle_upper_bg.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable\\lifestyle_upper_bg.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.singhealth.enhance.app-main-56:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable_chart2.jpg.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable\\chart2.jpg"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-mdpi_ic_groups.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-mdpi/ic_groups.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-mdpi_ic_keyboard_arrow_right.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-mdpi\\ic_keyboard_arrow_right.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable_lifestyle_lower_bg.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable/lifestyle_lower_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\layout_bottom_sheet_verify_scan.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\layout\\bottom_sheet_verify_scan.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-mdpi_ic_repeat.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-mdpi/ic_repeat.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\layout_activity_authentication.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\layout\\activity_authentication.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xhdpi_ic_remove_circle.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xhdpi/ic_remove_circle.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-hdpi_ic_error.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-hdpi\\ic_error.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xhdpi_ic_repeat.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xhdpi/ic_repeat.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xxhdpi_ic_arrow_outward.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xxhdpi\\ic_arrow_outward.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xxhdpi_ic_settings.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xxhdpi/ic_settings.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\mipmap-mdpi\\ic_launcher_round.webp"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xhdpi_ic_groups.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xhdpi/ic_groups.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\mipmap-mdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\mipmap-mdpi\\ic_launcher_foreground.webp"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable_app_singhealth_duke_nus_logo.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable/app_singhealth_duke_nus_logo.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-anydpi_ic_error.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-anydpi\\ic_error.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-hdpi_ic_camera_alt.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-hdpi/ic_camera_alt.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xxhdpi_ic_chart.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xxhdpi\\ic_chart.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-mdpi_ic_person_outline.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-mdpi/ic_person_outline.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-anydpi_ic_arrow_outward.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-anydpi\\ic_arrow_outward.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/raw_awsconfiguration.json.flat",
+        "source": "com.singhealth.enhance.app-main-56:/raw/awsconfiguration.json"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\layout_activity_registration.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\layout\\activity_registration.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-mdpi_ic_remove_circle.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-mdpi/ic_remove_circle.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-mdpi_ic_person_add.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-mdpi\\ic_person_add.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xhdpi_ic_chart.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xhdpi/ic_chart.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable_app_nanyang_polytechnic_logo.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable\\app_nanyang_polytechnic_logo.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-anydpi_ic_help_center.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-anydpi/ic_help_center.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable_shape_settings_ic.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable\\shape_settings_ic.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/layout_list_gender_item.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/layout/list_gender_item.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xhdpi_ic_repeat.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xhdpi\\ic_repeat.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xxhdpi_ic_history.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xxhdpi/ic_history.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\layout_activity_about.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\layout\\activity_about.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable_chart3.jpg.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable/chart3.jpg"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-hdpi_ic_person_add.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-hdpi\\ic_person_add.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xxhdpi_ic_person.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xxhdpi/ic_person.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xxhdpi_ic_save.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xxhdpi\\ic_save.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xxhdpi_ic_person_add.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xxhdpi/ic_person_add.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xhdpi_ic_contact_support.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xhdpi\\ic_contact_support.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/layout_activity_registration.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/layout/activity_registration.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xhdpi_ic_arrow_outward.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xhdpi/ic_arrow_outward.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\layout_activity_recommendation.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\layout\\activity_recommendation.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xhdpi_ic_camera_alt.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xhdpi/ic_camera_alt.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\layout_activity_profile.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\layout\\activity_profile.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xhdpi_ic_save.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xhdpi/ic_save.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable_medical_lower_bg.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable\\medical_lower_bg.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xxhdpi_ic_error.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xxhdpi/ic_error.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-hdpi_ic_logout.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-hdpi\\ic_logout.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.singhealth.enhance.app-main-56:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\layout_row_bp_record.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\layout\\row_bp_record.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable_app_enhance_logo.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable/app_enhance_logo.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-mdpi_ic_camera_alt.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-mdpi\\ic_camera_alt.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-mdpi_ic_repeat.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-mdpi\\ic_repeat.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xxhdpi_ic_chart.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xxhdpi/ic_chart.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\layout_header_navigation_drawer.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\layout\\header_navigation_drawer.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.singhealth.enhance.app-main-56:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xxhdpi_ic_repeat.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xxhdpi\\ic_repeat.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-anydpi_ic_file_upload.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-anydpi/ic_file_upload.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable_popup_background.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable\\popup_background.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/layout_activity_privacy_statement.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/layout/activity_privacy_statement.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xxhdpi_ic_history.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xxhdpi\\ic_history.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-hdpi_ic_delete.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-hdpi/ic_delete.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xhdpi_ic_camera_alt.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xhdpi\\ic_camera_alt.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.singhealth.enhance.app-main-56:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xxhdpi_ic_remove_circle.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xxhdpi\\ic_remove_circle.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-hdpi_ic_home.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-hdpi/ic_home.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-anydpi_ic_textsms.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-anydpi\\ic_textsms.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-hdpi_ic_contact_support.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-hdpi/ic_contact_support.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\layout_activity_main.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\layout\\activity_main.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-hdpi_ic_save.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-hdpi/ic_save.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\layout_list_gender_item.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\layout\\list_gender_item.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable_poor.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable/poor.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\raw_amplifyconfiguration.json.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\raw\\amplifyconfiguration.json"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/layout_history_item.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/layout/history_item.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\layout_activity_splash_screen.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\layout\\activity_splash_screen.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xxhdpi_ic_file_upload.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xxhdpi/ic_file_upload.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xxhdpi_ic_error.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xxhdpi\\ic_error.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable_shape_settings_ic.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable/shape_settings_ic.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-anydpi_ic_settings.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-anydpi\\ic_settings.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xxhdpi_ic_home.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xxhdpi/ic_home.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\layout_activity_history.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\layout\\activity_history.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-anydpi_ic_camera_alt.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-anydpi/ic_camera_alt.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable_nyp_logo.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable\\nyp_logo.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xxhdpi_ic_save.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xxhdpi/ic_save.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable_app_enhance_logo.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable\\app_enhance_logo.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-mdpi_ic_error.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-mdpi/ic_error.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable_good.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable\\good.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable_app_nhcs_building_image.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable/app_nhcs_building_image.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\mipmap-xhdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\mipmap-xhdpi\\ic_launcher_foreground.webp"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-mdpi_ic_home.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-mdpi/ic_home.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-hdpi_ic_swap_horizontal_circle.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-hdpi\\ic_swap_horizontal_circle.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-hdpi_ic_person.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-hdpi/ic_person.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\layout_dashboard.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\layout\\dashboard.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/layout_activity_profile.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/layout/activity_profile.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-hdpi_ic_keyboard_arrow_right.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-hdpi\\ic_keyboard_arrow_right.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-hdpi_ic_person_outline.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-hdpi/ic_person_outline.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\menu_navigation_drawer.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\menu\\navigation_drawer.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable_chart5.jpg.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable/chart5.jpg"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-mdpi_ic_save.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-mdpi\\ic_save.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xxhdpi_ic_repeat.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xxhdpi/ic_repeat.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\layout_activity_user_guide.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\layout\\activity_user_guide.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.singhealth.enhance.app-main-56:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-anydpi_ic_edit_calendar.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-anydpi\\ic_edit_calendar.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/layout_activity_about.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/layout/activity_about.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\mipmap-hdpi\\ic_launcher_round.webp"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xhdpi_ic_person_add.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xhdpi/ic_person_add.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-mdpi_ic_error.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-mdpi\\ic_error.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable_diet_upper_bg.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable/diet_upper_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-mdpi_ic_swap_horizontal_circle.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-mdpi\\ic_swap_horizontal_circle.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/raw_amplifyconfiguration.json.flat",
+        "source": "com.singhealth.enhance.app-main-56:/raw/amplifyconfiguration.json"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xhdpi_ic_settings.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xhdpi\\ic_settings.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-mdpi_ic_person_add.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-mdpi/ic_person_add.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-hdpi_ic_delete.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-hdpi\\ic_delete.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/layout_divider_old_new_record.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/layout/divider_old_new_record.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xhdpi_ic_textsms.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xhdpi\\ic_textsms.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.singhealth.enhance.app-main-56:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-mdpi_ic_chart.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-mdpi\\ic_chart.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xxhdpi_ic_person_outline.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xxhdpi/ic_person_outline.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-anydpi_ic_person_add.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-anydpi\\ic_person_add.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-hdpi_ic_chart.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-hdpi/ic_chart.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-anydpi_ic_home.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-anydpi\\ic_home.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xxhdpi_ic_contact_support.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xxhdpi/ic_contact_support.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-mdpi_ic_settings.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-mdpi\\ic_settings.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-mdpi_ic_help_center.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-mdpi/ic_help_center.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-anydpi_ic_swap_horizontal_circle.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-anydpi\\ic_swap_horizontal_circle.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/mipmap-mdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.singhealth.enhance.app-main-56:/mipmap-mdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-anydpi_ic_person.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-anydpi\\ic_person.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-mdpi_ic_settings.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-mdpi/ic_settings.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\layout_activity_verify_scan.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\layout\\activity_verify_scan.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xxhdpi_ic_swap_horizontal_circle.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xxhdpi/ic_swap_horizontal_circle.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xxhdpi_ic_edit_calendar.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xxhdpi\\ic_edit_calendar.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-mdpi_ic_contact_support.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-mdpi/ic_contact_support.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xhdpi_ic_help_center.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xhdpi\\ic_help_center.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-hdpi_ic_repeat.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-hdpi/ic_repeat.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-hdpi_ic_person.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-hdpi\\ic_person.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-anydpi_ic_person_outline.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-anydpi/ic_person_outline.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xxhdpi_ic_help_center.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xxhdpi\\ic_help_center.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/layout_activity_login.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/layout/activity_login.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-hdpi_ic_camera_alt.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-hdpi\\ic_camera_alt.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/layout_row_bp_record.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/layout/row_bp_record.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xxhdpi_ic_home.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xxhdpi\\ic_home.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.singhealth.enhance.app-main-56:/mipmap-xxxhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable_diet_lower_bg.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable\\diet_lower_bg.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/xml_backup_rules.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/xml/backup_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xhdpi_ic_person_add.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xhdpi\\ic_person_add.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.singhealth.enhance.app-main-56:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xhdpi_ic_file_upload.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xhdpi\\ic_file_upload.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xxhdpi_ic_remove_circle.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xxhdpi/ic_remove_circle.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable_very_poor.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable\\very_poor.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-mdpi_ic_keyboard_arrow_right.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-mdpi/ic_keyboard_arrow_right.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-mdpi_ic_groups.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-mdpi\\ic_groups.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xxhdpi_ic_textsms.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xxhdpi/ic_textsms.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xxhdpi_ic_file_upload.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xxhdpi\\ic_file_upload.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-anydpi_ic_save.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-anydpi/ic_save.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-hdpi_ic_help_center.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-hdpi\\ic_help_center.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-hdpi_ic_help_center.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-hdpi/ic_help_center.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable_diet_upper_bg.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable\\diet_upper_bg.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-hdpi_ic_person_add.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-hdpi/ic_person_add.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xhdpi_ic_delete.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xhdpi\\ic_delete.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-hdpi_ic_error.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-hdpi/ic_error.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/layout_activity_verify_scan.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/layout/activity_verify_scan.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-hdpi_ic_contact_support.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-hdpi\\ic_contact_support.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-anydpi_ic_swap_horizontal_circle.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-anydpi/ic_swap_horizontal_circle.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-anydpi_ic_keyboard_arrow_right.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-anydpi\\ic_keyboard_arrow_right.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/menu_navigation_bar.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/menu/navigation_bar.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xxhdpi_ic_textsms.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xxhdpi\\ic_textsms.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xxhdpi_ic_help_center.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xxhdpi/ic_help_center.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-mdpi_ic_help_center.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-mdpi\\ic_help_center.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.singhealth.enhance.app-main-56:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xxhdpi_ic_swap_horizontal_circle.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xxhdpi\\ic_swap_horizontal_circle.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xxhdpi_ic_delete.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xxhdpi/ic_delete.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xhdpi_ic_swap_horizontal_circle.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xhdpi\\ic_swap_horizontal_circle.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable_very_poor.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable/very_poor.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xxhdpi_ic_keyboard_arrow_right.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xxhdpi\\ic_keyboard_arrow_right.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xhdpi_ic_error.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xhdpi/ic_error.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-anydpi_ic_delete.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-anydpi\\ic_delete.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable_good.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable/good.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable_app_logo.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable\\app_logo.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable_diet_lower_bg.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable/diet_lower_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xhdpi_ic_history.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xhdpi\\ic_history.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable_nyp_logo.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable/nyp_logo.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-hdpi_ic_remove_circle.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-hdpi\\ic_remove_circle.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-anydpi_ic_delete.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-anydpi/ic_delete.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-anydpi_ic_chart.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-anydpi\\ic_chart.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-hdpi_ic_logout.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-hdpi/ic_logout.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xxhdpi_ic_logout.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xxhdpi\\ic_logout.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable_app_logo.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable/app_logo.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xxhdpi_ic_camera_alt.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xxhdpi\\ic_camera_alt.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-mdpi_ic_arrow_outward.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-mdpi/ic_arrow_outward.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\xml_data_extraction_rules.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\xml\\data_extraction_rules.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-anydpi_ic_contact_support.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-anydpi/ic_contact_support.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-anydpi_ic_help_center.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-anydpi\\ic_help_center.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/layout_activity_history.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/layout/activity_history.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xhdpi_ic_save.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xhdpi\\ic_save.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-mdpi_ic_logout.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-mdpi/ic_logout.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable_app_singhealth_duke_nus_logo.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable\\app_singhealth_duke_nus_logo.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/menu_navigation_drawer.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/menu/navigation_drawer.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\mipmap-xxhdpi\\ic_launcher.webp"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-hdpi_ic_edit_calendar.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-hdpi/ic_edit_calendar.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-mdpi_ic_home.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-mdpi\\ic_home.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-hdpi_ic_history.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-hdpi/ic_history.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xhdpi_ic_logout.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xhdpi\\ic_logout.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable_ripple_settings_item.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable/ripple_settings_item.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-hdpi_ic_save.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-hdpi\\ic_save.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-anydpi_ic_chart.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-anydpi/ic_chart.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xhdpi_ic_edit_calendar.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xhdpi\\ic_edit_calendar.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-mdpi_ic_camera_alt.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-mdpi/ic_camera_alt.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-mdpi_ic_history.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-mdpi\\ic_history.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/mipmap-xhdpi_ic_launcher_foreground.webp.flat",
+        "source": "com.singhealth.enhance.app-main-56:/mipmap-xhdpi/ic_launcher_foreground.webp"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xxhdpi_ic_contact_support.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xxhdpi\\ic_contact_support.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable_popup_background.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable/popup_background.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\mipmap-xxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\mipmap-xxhdpi\\ic_launcher_foreground.webp"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-mdpi_ic_chart.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-mdpi/ic_chart.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-hdpi_ic_person_outline.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-hdpi\\ic_person_outline.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/layout_activity_recommendation.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/layout/activity_recommendation.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-mdpi_ic_contact_support.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-mdpi\\ic_contact_support.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xxhdpi_ic_camera_alt.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xxhdpi/ic_camera_alt.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-hdpi_ic_chart.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-hdpi\\ic_chart.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xhdpi_ic_contact_support.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xhdpi/ic_contact_support.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-hdpi_ic_history.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-hdpi\\ic_history.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xhdpi_ic_home.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xhdpi/ic_home.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-anydpi_ic_person_outline.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-anydpi\\ic_person_outline.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xxhdpi_ic_arrow_outward.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xxhdpi/ic_arrow_outward.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-anydpi_ic_logout.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-anydpi\\ic_logout.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/xml_data_extraction_rules.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable_app_nhcs_building_image.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable\\app_nhcs_building_image.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xhdpi_ic_person_outline.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xhdpi/ic_person_outline.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xhdpi_ic_keyboard_arrow_right.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xhdpi\\ic_keyboard_arrow_right.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xhdpi_ic_logout.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xhdpi/ic_logout.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-anydpi_ic_settings.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-anydpi/ic_settings.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xxhdpi_ic_delete.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xxhdpi\\ic_delete.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-anydpi_ic_arrow_outward.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-anydpi/ic_arrow_outward.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable_chart5.jpg.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable\\chart5.jpg"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xxhdpi_ic_keyboard_arrow_right.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xxhdpi/ic_keyboard_arrow_right.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\raw_awsconfiguration.json.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\raw\\awsconfiguration.json"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-anydpi_ic_logout.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-anydpi/ic_logout.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable_excellent.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable\\excellent.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xxhdpi_ic_logout.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xxhdpi/ic_logout.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable_chart1.jpg.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable\\chart1.jpg"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable_app_nanyang_polytechnic_logo.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable/app_nanyang_polytechnic_logo.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\layout_activity_scan.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\layout\\activity_scan.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-mdpi_ic_history.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-mdpi/ic_history.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable_lifestyle_lower_bg.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable\\lifestyle_lower_bg.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-mdpi_ic_save.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-mdpi/ic_save.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-hdpi_ic_arrow_outward.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-hdpi\\ic_arrow_outward.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-anydpi_ic_keyboard_arrow_right.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-anydpi/ic_keyboard_arrow_right.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xhdpi_ic_error.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xhdpi\\ic_error.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-hdpi_ic_file_upload.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-hdpi/ic_file_upload.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-mdpi_ic_edit_calendar.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-mdpi\\ic_edit_calendar.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/layout_activity_terms_of_use.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/layout/activity_terms_of_use.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-anydpi_ic_remove_circle.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-anydpi\\ic_remove_circle.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.singhealth.enhance.app-main-56:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-anydpi_ic_repeat.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-anydpi\\ic_repeat.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable_lifestyle_upper_bg.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable/lifestyle_upper_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable_chart4.jpg.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable\\chart4.jpg"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xhdpi_ic_file_upload.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xhdpi/ic_file_upload.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\layout_activity_terms_of_use.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\layout\\activity_terms_of_use.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xxhdpi_ic_groups.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xxhdpi/ic_groups.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xhdpi_ic_chart.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xhdpi\\ic_chart.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-anydpi_ic_person_add.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-anydpi/ic_person_add.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable_poor.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable\\poor.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/layout_header_navigation_drawer.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/layout/header_navigation_drawer.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-hdpi_ic_file_upload.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-hdpi\\ic_file_upload.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/layout_accordion_guide_items.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/layout/accordion_guide_items.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-hdpi_ic_groups.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-hdpi\\ic_groups.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable_medical_upper_bg.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable/medical_upper_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xxhdpi_ic_person_add.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xxhdpi\\ic_person_add.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable_chart4.jpg.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable/chart4.jpg"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\layout_divider_old_new_record.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\layout\\divider_old_new_record.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/layout_activity_user_guide.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/layout/activity_user_guide.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable_ripple_settings_item.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable\\ripple_settings_item.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xhdpi_ic_keyboard_arrow_right.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xhdpi/ic_keyboard_arrow_right.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-mdpi_ic_person.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-mdpi\\ic_person.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-anydpi_ic_groups.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-anydpi/ic_groups.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\menu_navigation_bar.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\menu\\navigation_bar.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-mdpi_ic_file_upload.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-mdpi/ic_file_upload.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-hdpi_ic_home.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-hdpi\\ic_home.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.singhealth.enhance.app-main-56:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xhdpi_ic_arrow_outward.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xhdpi\\ic_arrow_outward.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-mdpi_ic_edit_calendar.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-mdpi/ic_edit_calendar.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable_neutral.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable\\neutral.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/layout_bottom_sheet_verify_scan.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/layout/bottom_sheet_verify_scan.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-mdpi_ic_file_upload.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-mdpi\\ic_file_upload.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-mdpi_ic_swap_horizontal_circle.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-mdpi/ic_swap_horizontal_circle.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-mdpi_ic_remove_circle.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-mdpi\\ic_remove_circle.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/layout_activity_settings.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/layout/activity_settings.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xhdpi_ic_person.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xhdpi\\ic_person.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xhdpi_ic_delete.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xhdpi/ic_delete.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\layout_accordion_guide_items.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\layout\\accordion_guide_items.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-mdpi_ic_delete.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-mdpi/ic_delete.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-hdpi_ic_textsms.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-hdpi\\ic_textsms.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable_chart1.jpg.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable/chart1.jpg"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-mdpi_ic_textsms.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-mdpi\\ic_textsms.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-anydpi_ic_textsms.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-anydpi/ic_textsms.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-mdpi_ic_arrow_outward.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-mdpi\\ic_arrow_outward.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xhdpi_ic_edit_calendar.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xhdpi/ic_edit_calendar.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xhdpi_ic_person_outline.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xhdpi\\ic_person_outline.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-hdpi_ic_swap_horizontal_circle.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-hdpi/ic_swap_horizontal_circle.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xhdpi_ic_remove_circle.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xhdpi\\ic_remove_circle.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-anydpi_ic_remove_circle.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-anydpi/ic_remove_circle.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-xxhdpi_ic_settings.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-xxhdpi\\ic_settings.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xhdpi_ic_history.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xhdpi/ic_history.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\mipmap-hdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\mipmap-hdpi\\ic_launcher_foreground.webp"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-hdpi_ic_groups.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-hdpi/ic_groups.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-anydpi_ic_contact_support.xml.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-anydpi\\ic_contact_support.xml"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/layout_activity_authentication.xml.flat",
+        "source": "com.singhealth.enhance.app-main-56:/layout/activity_authentication.xml"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-hdpi_ic_remove_circle.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-hdpi/ic_remove_circle.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\drawable-mdpi_ic_person_outline.png.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\drawable-mdpi\\ic_person_outline.png"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable_excellent.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable/excellent.png"
     },
     {
-        "merged": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-merged_res-54:\\mipmap-xxxhdpi_ic_launcher_foreground.webp.flat",
-        "source": "C:\\Users\\Tyler\\.gradle\\daemon\\8.0\\com.singhealth.enhance.app-main-56:\\mipmap-xxxhdpi\\ic_launcher_foreground.webp"
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-xhdpi_ic_settings.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-xhdpi/ic_settings.png"
+    },
+    {
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-mdpi_ic_person.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-mdpi/ic_person.png"
+    },
+    {
+        "merged": "com.singhealth.enhance.app-merged_res-54:/drawable-hdpi_ic_arrow_outward.png.flat",
+        "source": "com.singhealth.enhance.app-main-56:/drawable-hdpi/ic_arrow_outward.png"
     }
 ]

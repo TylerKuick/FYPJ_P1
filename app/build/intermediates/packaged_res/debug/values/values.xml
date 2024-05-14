@@ -52,6 +52,7 @@
     <string name="profile_title">Profile</string>
     <string name="project_id" translatable="false">enhance-bdc3f</string>
     <string name="recommendation">~ Recommendation:</string>
+    <string name="reload">Reload</string>
     <string name="report_vulnerability_title">Report vulnerability</string>
     <string name="scan_title">Scan</string>
     <string name="section_account_title">Account</string>

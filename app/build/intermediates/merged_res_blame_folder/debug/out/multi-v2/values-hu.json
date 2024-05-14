@@ -4,23 +4,6 @@
             "outputFile": "com.singhealth.enhance.app-mergeDebugResources-52:/values-hu/values-hu.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\Tyler\\.gradle\\caches\\transforms-3\\86d68e889dee5913a45baee2693bfea5\\transformed\\browser-1.8.0\\res\\values-hu\\values-hu.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,151,252,367",
-                        "endColumns": "95,100,114,103",
-                        "endOffsets": "146,247,362,466"
-                    },
-                    "to": {
-                        "startLines": "59,62,63,64",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "6201,6460,6561,6676",
-                        "endColumns": "95,100,114,103",
-                        "endOffsets": "6292,6556,6671,6775"
-                    }
-                },
-                {
                     "source": "C:\\Users\\Tyler\\.gradle\\caches\\transforms-3\\d3338ff8d476fab9b2c30ec8bdc71dd6\\transformed\\jetified-play-services-basement-18.1.0\\res\\values-hu\\values.xml",
                     "from": {
                         "startLines": "4",
@@ -105,6 +88,23 @@
                         "startOffsets": "11741",
                         "endColumns": "100",
                         "endOffsets": "11837"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\Tyler\\.gradle\\caches\\transforms-3\\0282dddc1b1de6c7d2603070da76f953\\transformed\\browser-1.4.0\\res\\values-hu\\values-hu.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,151,252,367",
+                        "endColumns": "95,100,114,103",
+                        "endOffsets": "146,247,362,466"
+                    },
+                    "to": {
+                        "startLines": "59,62,63,64",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "6201,6460,6561,6676",
+                        "endColumns": "95,100,114,103",
+                        "endOffsets": "6292,6556,6671,6775"
                     }
                 },
                 {

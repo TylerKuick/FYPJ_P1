@@ -21,6 +21,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\Tyler\\.gradle\\caches\\transforms-3\\0282dddc1b1de6c7d2603070da76f953\\transformed\\browser-1.4.0\\res\\values-es\\values-es.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,162,263,378",
+                        "endColumns": "106,100,114,104",
+                        "endOffsets": "157,258,373,478"
+                    },
+                    "to": {
+                        "startLines": "59,63,64,65",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "6147,6470,6571,6686",
+                        "endColumns": "106,100,114,104",
+                        "endOffsets": "6249,6566,6681,6786"
+                    }
+                },
+                {
                     "source": "C:\\Users\\Tyler\\.gradle\\caches\\transforms-3\\642df67af254186558f8d6a142d8e9fd\\transformed\\jetified-android-image-cropper-4.5.0\\res\\values-es\\values-es.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
@@ -105,23 +122,6 @@
                         "startOffsets": "4846",
                         "endColumns": "159",
                         "endOffsets": "5001"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\Tyler\\.gradle\\caches\\transforms-3\\86d68e889dee5913a45baee2693bfea5\\transformed\\browser-1.8.0\\res\\values-es\\values-es.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,162,263,378",
-                        "endColumns": "106,100,114,104",
-                        "endOffsets": "157,258,373,478"
-                    },
-                    "to": {
-                        "startLines": "59,63,64,65",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "6147,6470,6571,6686",
-                        "endColumns": "106,100,114,104",
-                        "endOffsets": "6249,6566,6681,6786"
                     }
                 },
                 {

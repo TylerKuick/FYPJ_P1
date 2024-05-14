@@ -204,7 +204,8 @@ class DashboardActivity : AppCompatActivity() {
                     myWebView.settings.loadsImagesAutomatically = true
                     myWebView.settings.mixedContentMode = WebSettings.MIXED_CONTENT_ALWAYS_ALLOW
                     myWebView.settings.setSupportMultipleWindows(true)
-                    myWebView.loadUrl("https://enhance-bdc3f.web.app")
+                    myWebView.loadUrl("https://enhance-bdc3f.web.app/?params=%7B%22ds14.documentid%22%3A%22${patientID}%22%7D")
+                    println("https://enhance-bdc3f.web.app/?params={'ds14.documentid':'${patientID}'}")
 
                 }
             }
